@@ -7,8 +7,10 @@ from rich.table import Table
 
 class DatabaseAnalyzer:
 
-    def __init__(self, database_path='database.json'):
+    def __init__(self, database_path='database.json', lengthA=10, lengthB=10):
         self.database_path = database_path
+        self.lengthA = lengthA
+        self.lengthB = lengthB
         self.plugins_df = None
         self.console = Console()
         self.load_database()
@@ -56,7 +58,7 @@ class DatabaseAnalyzer:
 
     def get_topics_distribution(self):
         topics_series = self.plugins_df['topics'].explode().value_counts()
-        return topics_series.head(10)  # Only the top 5 topics
+        return topics_series.head(self.lengthB)  # Only the top 5 topics
 
     def print_summary(self):
         self.console.print(
@@ -103,9 +105,9 @@ class DatabaseAnalyzer:
 
         for category, column_name in categories.items():
             self.console.print(
-                f"\nTop 10 Plugins by {category}:",
+                f"\nTop {self.lengthA} Plugins by {category}:",
                 style="bold underline magenta")
-            top_plugins = self.plugins_df.nlargest(10,
+            top_plugins = self.plugins_df.nlargest(self.lengthA,
                                                    column_name)[[column_name]]
 
             table = Table(show_header=True, header_style="bold magenta")
@@ -138,12 +140,20 @@ class DatabaseAnalyzer:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Check the database')
     parser.add_argument(
-        '--database',
+        '--db',
         help='Path to the database file',
         default='database.json',
         type=str)
+    parser.add_argument(
+        "--lenA", help="Length of items you want to view", default=10, type=int)
+    parser.add_argument(
+        "--lenB",
+        help="Length of Topic Distribution you want to view",
+        default=15,
+        type=int)
 
     args = parser.parse_args()
-    analyzer = DatabaseAnalyzer(database_path=args.database)
+    analyzer = DatabaseAnalyzer(
+        database_path=args.db, lengthA=args.lenA, lengthB=args.lenB)
     analyzer.print_summary()
     analyzer.print_top_plugins()
