@@ -183,24 +183,25 @@ class GenerateData(ClientKeySwitcher):
 
         # perhaps export to a `constants` module
         self.wanted_fields = [
-            "full_name",
-            "description",
-            "default_branch",
-            "fork",
             "archived",
-            "private",
             "clone_url",
             "commits_url",
+            "contents_url",
             "created_at",
-            "updated_at",
+            "default_branch",
+            "description",
+            "fork",
+            "forks_count",
+            "full_name",
+            "language",
+            "license",
+            "open_issues_count",
+            "owner",
+            "private",
             "stargazers_count",
             "subscribers_count",
-            "forks_count",
-            "language",
-            "open_issues_count",
             "topics",
-            "owner",
-            "contents_url",
+            "updated_at",
         ]
         # this is not accurate but it will be good enough for now.
         self.unwanted_config = [
