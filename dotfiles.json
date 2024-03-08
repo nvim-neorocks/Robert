@@ -11,6 +11,13 @@
         "forks_count": 7,
         "full_name": "cstsunfu/.sea.nvim",
         "language": "Lua",
+        "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "node_id": "MDc6TGljZW5zZTI=",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/24812659?v=4",
@@ -55,6 +62,13 @@
         "forks_count": 835,
         "full_name": "AstroNvim/AstroNvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 3,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/102238249?v=4",
@@ -110,6 +124,13 @@
         "forks_count": 0,
         "full_name": "TarunDaCoder/BobVim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/77536695?v=4",
@@ -153,6 +174,13 @@
         "forks_count": 41,
         "full_name": "artart222/CodeArt",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 8,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/55560437?v=4",
@@ -205,6 +233,13 @@
         "forks_count": 5,
         "full_name": "Manas140/Conscious",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/64472354?v=4",
@@ -248,6 +283,13 @@
         "forks_count": 69,
         "full_name": "CosmicNvim/CosmicNvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 2,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/95049766?v=4",
@@ -304,6 +346,13 @@
         "forks_count": 13,
         "full_name": "SingularisArt/DeathVim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/57925294?v=4",
@@ -348,6 +397,7 @@
         "forks_count": 1,
         "full_name": "ewheels44/Eth0nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 5,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/31321251?v=4",
@@ -390,6 +440,13 @@
         "forks_count": 0,
         "full_name": "YmmitZtrol/Forest.nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "node_id": "MDc6TGljZW5zZTg=",
+            "spdx_id": "GPL-2.0",
+            "url": "https://api.github.com/licenses/gpl-2.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/78155592?v=4",
@@ -428,6 +485,13 @@
         "forks_count": 0,
         "full_name": "cccra/JENT",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/56204042?v=4",
@@ -478,6 +542,13 @@
         "forks_count": 799,
         "full_name": "LazyVim/LazyVim",
         "language": "Lua",
+        "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "node_id": "MDc6TGljZW5zZTI=",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0"
+        },
         "open_issues_count": 76,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/122150220?v=4",
@@ -500,7 +571,7 @@
             "url": "https://api.github.com/users/LazyVim"
         },
         "private": false,
-        "stargazers_count": 12291,
+        "stargazers_count": 12293,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -509,7 +580,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-03-08T15:12:47Z"
+        "updated_at": "2024-03-08T18:55:10Z"
     },
     "LunarVim": {
         "archived": false,
@@ -523,6 +594,13 @@
         "forks_count": 1478,
         "full_name": "LunarVim/LunarVim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 67,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/86900519?v=4",
@@ -545,7 +623,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 17233,
+        "stargazers_count": 17234,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -564,7 +642,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-03-08T16:02:10Z"
+        "updated_at": "2024-03-08T18:16:54Z"
     },
     "NeoCode": {
         "archived": false,
@@ -578,6 +656,7 @@
         "forks_count": 5,
         "full_name": "Sewdohe/NeoCode",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 4,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/93289458?v=4",
@@ -620,6 +699,13 @@
         "forks_count": 1,
         "full_name": "nishu-murmu/NeoVim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/71123337?v=4",
@@ -671,6 +757,7 @@
         "forks_count": 0,
         "full_name": "mayankdutta/NeoVim_lua",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/33067129?v=4",
@@ -709,6 +796,13 @@
         "forks_count": 1174,
         "full_name": "LunarVim/Neovim-from-scratch",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 79,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/86900519?v=4",
@@ -756,6 +850,13 @@
         "forks_count": 91,
         "full_name": "NormalNvim/NormalNvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/135933446?v=4",
@@ -778,13 +879,13 @@
             "url": "https://api.github.com/users/NormalNvim"
         },
         "private": false,
-        "stargazers_count": 282,
+        "stargazers_count": 283,
         "topics": [
             "nvim",
             "nvim-config",
             "nvim-configs"
         ],
-        "updated_at": "2024-03-08T04:58:59Z"
+        "updated_at": "2024-03-08T18:56:56Z"
     },
     "NvChad": {
         "archived": false,
@@ -795,9 +896,16 @@
         "default_branch": "v2.0",
         "description": "Blazing fast Neovim config providing solid defaults and a beautiful UI, enhancing your neovim experience.",
         "fork": false,
-        "forks_count": 1982,
+        "forks_count": 1983,
         "full_name": "NvChad/NvChad",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 2,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/88978340?v=4",
@@ -820,7 +928,7 @@
             "url": "https://api.github.com/users/NvChad"
         },
         "private": false,
-        "stargazers_count": 22318,
+        "stargazers_count": 22321,
         "topics": [
             "dotfiles",
             "editor",
@@ -843,7 +951,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-03-08T15:32:18Z"
+        "updated_at": "2024-03-08T17:53:11Z"
     },
     "NvHack": {
         "archived": false,
@@ -857,6 +965,13 @@
         "forks_count": 1,
         "full_name": "bryant-the-coder/NvHack",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/92417638?v=4",
@@ -906,6 +1021,7 @@
         "forks_count": 11,
         "full_name": "Melkeydev/NvimConfig",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/53410236?v=4",
@@ -944,6 +1060,13 @@
         "forks_count": 5,
         "full_name": "ashincoder/StarVim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/83629316?v=4",
@@ -994,6 +1117,13 @@
         "forks_count": 1,
         "full_name": "yashsavani/Svimming-in-NeoVim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/6228832?v=4",
@@ -1047,6 +1177,7 @@
         "forks_count": 0,
         "full_name": "TheNerdyHamster/TNH-nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/26503572?v=4",
@@ -1085,6 +1216,13 @@
         "forks_count": 54,
         "full_name": "VapourNvim/VapourNvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 17,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/91607613?v=4",
@@ -1128,6 +1266,7 @@
         "forks_count": 0,
         "full_name": "wmilou/WVim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/43588223?v=4",
@@ -1166,6 +1305,13 @@
         "forks_count": 2,
         "full_name": "talha-akram/anvil",
         "language": "Lua",
+        "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+            "node_id": "MDc6TGljZW5zZTU=",
+            "spdx_id": "BSD-3-Clause",
+            "url": "https://api.github.com/licenses/bsd-3-clause"
+        },
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/72861924?v=4",
@@ -1210,6 +1356,7 @@
         "forks_count": 5,
         "full_name": "TeoDev1611/astro.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/73144037?v=4",
@@ -1257,6 +1404,13 @@
         "forks_count": 40,
         "full_name": "Ultra-Code/awesome-neovim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/22438427?v=4",
@@ -1308,6 +1462,7 @@
         "forks_count": 2,
         "full_name": "skbolton/base.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/13260877?v=4",
@@ -1346,6 +1501,13 @@
         "forks_count": 0,
         "full_name": "shanytc/blindvim.nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1939889?v=4",
@@ -1384,6 +1546,13 @@
         "forks_count": 15,
         "full_name": "NTBBloodbath/cheovim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "node_id": "MDc6TGljZW5zZTg=",
+            "spdx_id": "GPL-2.0",
+            "url": "https://api.github.com/licenses/gpl-2.0"
+        },
         "open_issues_count": 8,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/36456999?v=4",
@@ -1428,6 +1597,7 @@
         "forks_count": 1,
         "full_name": "captainko/cko.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/32269291?v=4",
@@ -1466,6 +1636,7 @@
         "forks_count": 0,
         "full_name": "cynix/config-nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1535?v=4",
@@ -1504,6 +1675,13 @@
         "forks_count": 0,
         "full_name": "kylechui/config.nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/48545987?v=4",
@@ -1545,6 +1723,13 @@
         "forks_count": 0,
         "full_name": "ten3roberts/darken.nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/25723553?v=4",
@@ -1583,6 +1768,7 @@
         "forks_count": 0,
         "full_name": "abnt713/dogemoon.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/8852829?v=4",
@@ -1621,6 +1807,13 @@
         "forks_count": 112,
         "full_name": "doom-neovim/doom-nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "node_id": "MDc6TGljZW5zZTg=",
+            "spdx_id": "GPL-2.0",
+            "url": "https://api.github.com/licenses/gpl-2.0"
+        },
         "open_issues_count": 29,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/116857110?v=4",
@@ -1667,6 +1860,13 @@
         "forks_count": 18,
         "full_name": "nvimdev/dope",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 4,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/130372558?v=4",
@@ -1711,6 +1911,7 @@
         "forks_count": 1,
         "full_name": "famiu/dot-nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/29580810?v=4",
@@ -1749,6 +1950,7 @@
         "forks_count": 1,
         "full_name": "Himujjal/dotfiles",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/18563948?v=4",
@@ -1787,6 +1989,13 @@
         "forks_count": 18,
         "full_name": "s1n7ax/dotnvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/18459807?v=4",
@@ -1837,6 +2046,7 @@
         "forks_count": 6,
         "full_name": "mizlan/dots-nightly",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/44309097?v=4",
@@ -1875,6 +2085,7 @@
         "forks_count": 1,
         "full_name": "mars90226/dotvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1523214?v=4",
@@ -1920,6 +2131,13 @@
         "forks_count": 0,
         "full_name": "DesantBucie/easy.nvim",
         "language": "Lua",
+        "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+            "node_id": "MDc6TGljZW5zZTU=",
+            "spdx_id": "BSD-3-Clause",
+            "url": "https://api.github.com/licenses/bsd-3-clause"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/46130107?v=4",
@@ -1963,6 +2181,13 @@
         "forks_count": 6,
         "full_name": "uncomfyhalomacro/erudite-vim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/66054069?v=4",
@@ -2009,6 +2234,13 @@
         "forks_count": 2,
         "full_name": "GustavoPrietoP/evil-nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/70907734?v=4",
@@ -2043,7 +2275,7 @@
     "evim": {
         "archived": false,
         "clone_url": "https://github.com/e-cal/evim.git",
-        "commit": "adc794dfed9a4f719de02a9d319aea1df1466a56",
+        "commit": "db6c248b3da35c42ca40a356595d7ac9159230f5",
         "contents_url": "https://api.github.com/repos/e-cal/evim/contents/{+path}",
         "created_at": "2021-04-21T17:43:03Z",
         "default_branch": "main",
@@ -2052,6 +2284,7 @@
         "forks_count": 2,
         "full_name": "e-cal/evim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/47398876?v=4",
@@ -2090,6 +2323,13 @@
         "forks_count": 57,
         "full_name": "famiu/feline.nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 6,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/29580810?v=4",
@@ -2134,6 +2374,13 @@
         "forks_count": 0,
         "full_name": "max397574/ignis-nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "node_id": "MDc6TGljZW5zZTg=",
+            "spdx_id": "GPL-2.0",
+            "url": "https://api.github.com/licenses/gpl-2.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/81827001?v=4",
@@ -2176,6 +2423,7 @@
         "forks_count": 0,
         "full_name": "TaylorBeeston/init.vim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/39720479?v=4",
@@ -2211,10 +2459,17 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 7995,
+        "forks_count": 8007,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
-        "open_issues_count": 24,
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
+        "open_issues_count": 25,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/67477499?v=4",
             "events_url": "https://api.github.com/users/nvim-lua/events{/privacy}",
@@ -2236,9 +2491,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 12665,
+        "stargazers_count": 12678,
         "topics": [],
-        "updated_at": "2024-03-08T15:48:44Z"
+        "updated_at": "2024-03-08T18:51:03Z"
     },
     "kyoto.nvim": {
         "archived": true,
@@ -2252,6 +2507,13 @@
         "forks_count": 10,
         "full_name": "samrxth/kyoto.nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "node_id": "MDc6TGljZW5zZTg=",
+            "spdx_id": "GPL-2.0",
+            "url": "https://api.github.com/licenses/gpl-2.0"
+        },
         "open_issues_count": 2,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/69572668?v=4",
@@ -2298,6 +2560,13 @@
         "forks_count": 196,
         "full_name": "nshen/learn-neovim-lua",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/181506?v=4",
@@ -2344,6 +2613,13 @@
         "forks_count": 33,
         "full_name": "lspcontainers/lspcontainers.nvim",
         "language": "Lua",
+        "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "node_id": "MDc6TGljZW5zZTI=",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0"
+        },
         "open_issues_count": 13,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/83687070?v=4",
@@ -2389,6 +2665,7 @@
         "forks_count": 0,
         "full_name": "nickerdoodle/lua-config",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/68555107?v=4",
@@ -2427,6 +2704,13 @@
         "forks_count": 30,
         "full_name": "lvim-tech/lvim",
         "language": "Lua",
+        "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+            "node_id": "MDc6TGljZW5zZTU=",
+            "spdx_id": "BSD-3-Clause",
+            "url": "https://api.github.com/licenses/bsd-3-clause"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/82431193?v=4",
@@ -2465,6 +2749,13 @@
         "forks_count": 0,
         "full_name": "maxmx03/milianor-vim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/50273941?v=4",
@@ -2519,6 +2810,13 @@
         "forks_count": 0,
         "full_name": "y9c/myneovim.lua",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/5415510?v=4",
@@ -2567,6 +2865,13 @@
         "forks_count": 5,
         "full_name": "aserowy/neocode",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/8199164?v=4",
@@ -2614,6 +2919,7 @@
         "forks_count": 0,
         "full_name": "vhyrro/neorg-dev",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/76052559?v=4",
@@ -2652,6 +2958,7 @@
         "forks_count": 1,
         "full_name": "vhyrro/neovhy",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/76052559?v=4",
@@ -2690,6 +2997,7 @@
         "forks_count": 0,
         "full_name": "amazingefren/neovim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/48777455?v=4",
@@ -2730,6 +3038,7 @@
         "forks_count": 1,
         "full_name": "kkalamarski/neovim-config",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/5514826?v=4",
@@ -2780,6 +3089,7 @@
         "forks_count": 1,
         "full_name": "terrortylor/neovim-environment",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1199053?v=4",
@@ -2818,6 +3128,7 @@
         "forks_count": 0,
         "full_name": "Syndim/neovim-files",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/835035?v=4",
@@ -2856,6 +3167,7 @@
         "forks_count": 0,
         "full_name": "danvg/neovim-lua-config",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/59066390?v=4",
@@ -2894,6 +3206,7 @@
         "forks_count": 2,
         "full_name": "norcalli/neovim-plugin",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/296363?v=4",
@@ -2932,6 +3245,7 @@
         "forks_count": 0,
         "full_name": "josephsdavid/neovim2",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/42522233?v=4",
@@ -2970,6 +3284,7 @@
         "forks_count": 0,
         "full_name": "adishourya/neovim_config",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/46932291?v=4",
@@ -3008,6 +3323,7 @@
         "forks_count": 1,
         "full_name": "otherJL0/neovim_configs",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/54177704?v=4",
@@ -3046,6 +3362,13 @@
         "forks_count": 6,
         "full_name": "Theory-of-Everything/nii-nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/35197555?v=4",
@@ -3094,6 +3417,13 @@
         "forks_count": 3,
         "full_name": "n-shift/nv",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/53366878?v=4",
@@ -3123,7 +3453,7 @@
     "nv-ide": {
         "archived": false,
         "clone_url": "https://github.com/crivotz/nv-ide.git",
-        "commit": "7d14ff3e24717cd87881cc4758f87850799fbfad",
+        "commit": "cbf2a91082cd44bed85f6fd0b676d378948d04cf",
         "contents_url": "https://api.github.com/repos/crivotz/nv-ide/contents/{+path}",
         "created_at": "2020-01-10T09:05:12Z",
         "default_branch": "master",
@@ -3132,6 +3462,7 @@
         "forks_count": 60,
         "full_name": "crivotz/nv-ide",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 4,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/3275600?v=4",
@@ -3176,6 +3507,13 @@
         "forks_count": 61,
         "full_name": "glepnir/nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/41671631?v=4",
@@ -3217,6 +3555,13 @@
         "forks_count": 0,
         "full_name": "Shintenza/nvim-code",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/49399623?v=4",
@@ -3264,6 +3609,13 @@
         "forks_count": 7,
         "full_name": "b0o/nvim-conf",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/21299126?v=4",
@@ -3308,6 +3660,13 @@
         "forks_count": 467,
         "full_name": "jdhao/nvim-config",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 7,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/16662357?v=4",
@@ -3353,6 +3712,7 @@
         "forks_count": 0,
         "full_name": "kunzaatko/nvim-dots",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 23,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/56647779?v=4",
@@ -3391,6 +3751,7 @@
         "forks_count": 1,
         "full_name": "johnsci911/nvim-ide",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/6580895?v=4",
@@ -3435,6 +3796,13 @@
         "forks_count": 1,
         "full_name": "VonHeikemen/nvim-lsp-sans-plugins",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/20980671?v=4",
@@ -3473,6 +3841,7 @@
         "forks_count": 0,
         "full_name": "Giangvp99/nvim-lua",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/58165370?v=4",
@@ -3511,6 +3880,7 @@
         "forks_count": 0,
         "full_name": "ur4ltz/nvim-old",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/920202?v=4",
@@ -3549,6 +3919,13 @@
         "forks_count": 1,
         "full_name": "doctorfree/nvim-plug",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/940230?v=4",
@@ -3587,6 +3964,7 @@
         "forks_count": 0,
         "full_name": "onsails/nvim-reproduce-zsh-suggestions",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/107261?v=4",
@@ -3625,6 +4003,7 @@
         "forks_count": 0,
         "full_name": "Abhishek-More/nvim-setup",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/25088104?v=4",
@@ -3663,6 +4042,7 @@
         "forks_count": 0,
         "full_name": "mbriggs/nvim-vanilla",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/89260?v=4",
@@ -3701,6 +4081,13 @@
         "forks_count": 5,
         "full_name": "abyo/nvim-windows",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/79412578?v=4",
@@ -3744,6 +4131,7 @@
         "forks_count": 6,
         "full_name": "datwaft/nvim.conf",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/37723586?v=4",
@@ -3787,6 +4175,7 @@
         "forks_count": 0,
         "full_name": "fwar34/nvim.lua",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/26318975?v=4",
@@ -3825,6 +4214,13 @@
         "forks_count": 0,
         "full_name": "cossonleo/nvim_config",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/20379044?v=4",
@@ -3863,6 +4259,7 @@
         "forks_count": 1,
         "full_name": "XiaoConstantine/nvim_lua_config",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/3046977?v=4",
@@ -3901,6 +4298,13 @@
         "forks_count": 3,
         "full_name": "alohaia/nvimcfg",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/36324537?v=4",
@@ -3951,6 +4355,7 @@
         "forks_count": 0,
         "full_name": "wtchrs/nvimconf",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/60026970?v=4",
@@ -3995,6 +4400,7 @@
         "forks_count": 0,
         "full_name": "JorriFransen/nvimconfig",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/3761897?v=4",
@@ -4033,6 +4439,13 @@
         "forks_count": 442,
         "full_name": "ayamir/nvimdots",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 12,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/61657399?v=4",
@@ -4084,6 +4497,13 @@
         "forks_count": 0,
         "full_name": "oscarfzz/nvimfiles",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/75477207?v=4",
@@ -4122,6 +4542,13 @@
         "forks_count": 2,
         "full_name": "mnabila/nvimrc",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/37516576?v=4",
@@ -4171,6 +4598,7 @@
         "forks_count": 0,
         "full_name": "klooj/nvimrc-lua",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/57016271?v=4",
@@ -4209,6 +4637,7 @@
         "forks_count": 0,
         "full_name": "0oAstro/nvsc",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/79555780?v=4",
@@ -4247,6 +4676,7 @@
         "forks_count": 1,
         "full_name": "niyabits/nvy",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/36479718?v=4",
@@ -4285,6 +4715,13 @@
         "forks_count": 0,
         "full_name": "cenk1cenk2/old-nvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/26881592?v=4",
@@ -4323,6 +4760,7 @@
         "forks_count": 3,
         "full_name": "max397574/omega-nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/81827001?v=4",
@@ -4361,6 +4799,13 @@
         "forks_count": 0,
         "full_name": "iveahugeship/plain-nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/75507477?v=4",
@@ -4408,6 +4853,7 @@
         "forks_count": 0,
         "full_name": "prgn-nvim/prgn-nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/119054307?v=4",
@@ -4446,6 +4892,13 @@
         "forks_count": 1,
         "full_name": "krissemicolon/semicolonvim",
         "language": "Lua",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/41425452?v=4",
@@ -4490,6 +4943,13 @@
         "forks_count": 3,
         "full_name": "Shadorain/shadovim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/35006332?v=4",
@@ -4541,6 +5001,7 @@
         "forks_count": 0,
         "full_name": "joalon/stgit-unofficial.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/6282581?v=4",
@@ -4579,6 +5040,7 @@
         "forks_count": 0,
         "full_name": "CadeMichael/termbro.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/63083515?v=4",
@@ -4617,6 +5079,7 @@
         "forks_count": 0,
         "full_name": "thorlucas/thor.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/25698466?v=4",
@@ -4655,6 +5118,13 @@
         "forks_count": 0,
         "full_name": "Abhipanda4/thunder.nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/22133377?v=4",
@@ -4693,6 +5163,7 @@
         "forks_count": 0,
         "full_name": "alemidev/tinker.nvim",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10784898?v=4",
@@ -4737,6 +5208,13 @@
         "forks_count": 0,
         "full_name": "Aetf/ucw.nvim",
         "language": "Lua",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+        },
         "open_issues_count": 10,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1519759?v=4",
@@ -4778,6 +5256,7 @@
         "forks_count": 1,
         "full_name": "weilbith/vim-blueplanet",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/12543647?v=4",
@@ -4816,6 +5295,7 @@
         "forks_count": 0,
         "full_name": "marromlam/vim-gasm",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/41004396?v=4",
@@ -4860,6 +5340,7 @@
         "forks_count": 4,
         "full_name": "willfish/vimrc",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 1,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/8156884?v=4",
@@ -4889,7 +5370,7 @@
     "vin": {
         "archived": false,
         "clone_url": "https://github.com/nikbrunner/vin.git",
-        "commit": "c106728d57f206d6e6fcaf490f360671410f715b",
+        "commit": "1a09444af852c96b23e9e342187a43b21a71cce8",
         "contents_url": "https://api.github.com/repos/nikbrunner/vin/contents/{+path}",
         "created_at": "2021-04-01T19:58:59Z",
         "default_branch": "main",
@@ -4898,6 +5379,7 @@
         "forks_count": 0,
         "full_name": "nikbrunner/vin",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/46924729?v=4",
@@ -4941,6 +5423,7 @@
         "forks_count": 0,
         "full_name": "dineshKumar777/windows-nvim_packer2",
         "language": "Lua",
+        "license": null,
         "open_issues_count": 0,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/21097695?v=4",
