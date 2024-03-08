@@ -35,13 +35,13 @@ jobs:
         run: |
           touch .env
           echo CLIENT_ID=${{ secrets.CLIENT_ID }} >> .env
-          echo SECRET_ID=${{ secrets.CLIENT_SECRET }} >> .env
+          echo SECRET_ID=${{ secrets.SECRET_ID }} >> .env
           echo CLIENT_ID2=${{ secrets.CLIENT_ID2 }} >> .env
-          echo SECRET_ID2=${{ secrets.CLIENT_SECRET2 }} >> .env
+          echo SECRET_ID2=${{ secrets.SECRET_ID2 }} >> .env
           echo CLIENT_ID3=${{ secrets.CLIENT_ID3 }} >> .env
-          echo SECRET_ID3=${{ secrets.CLIENT_SECRET3 }} >> .env
+          echo SECRET_ID3=${{ secrets.SECRET_ID3 }} >> .env
           echo CLIENT_ID4=${{ secrets.CLIENT_ID4 }} >> .env
-          echo SECRET_ID4=${{ secrets.CLIENT_SECRET4 }} >> .env
+          echo SECRET_ID4=${{ secrets.SECRET_ID4 }} >> .env
           cat .env
       - name: Run pythonAuto
         run: |
