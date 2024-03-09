@@ -36,9 +36,10 @@ if root.handlers:
         root.removeHandler(h)()
 
 FORMAT = "%(message)s"
-logging.basicConfig(
-    level="INFO", format=FORMAT, datefmt="[%X]", handlers=[RichHandler()]
-)
+logging.basicConfig(level="INFO",
+                    format=FORMAT,
+                    datefmt="[%X]",
+                    handlers=[RichHandler()])
 
 
 def get_or_create_eventloop() -> Any:
@@ -109,7 +110,8 @@ def key_mapper(key):
 
         def output(d: dict):
             logging.info(ic.format(d))
-            return sum(fn(d[key], x) if key in d.keys() else 0 for x in iterable)
+            return sum(
+                fn(d[key], x) if key in d.keys() else 0 for x in iterable)
 
         return output
 
@@ -117,14 +119,27 @@ def key_mapper(key):
 
 
 class ClientKeySwitcher:
+
     def __init__(self):
         self.client_keys = [
-            {"id_env_var": "CLIENT_ID", "secret_env_var": "SECRET_ID"},
-            {"id_env_var": "CLIENT_ID2", "secret_env_var": "SECRET_ID2"},
-            {"id_env_var": "CLIENT_ID3", "secret_env_var": "SECRET_ID3"},
-            {"id_env_var": "CLIENT_ID4", "secret_env_var": "SECRET_ID4"},
+            {
+                "id_env_var": "CLIENT_ID",
+                "secret_env_var": "SECRET_ID"
+            },
+            {
+                "id_env_var": "CLIENT_ID2",
+                "secret_env_var": "SECRET_ID2"
+            },
+            {
+                "id_env_var": "CLIENT_ID3",
+                "secret_env_var": "SECRET_ID3"
+            },
+            {
+                "id_env_var": "CLIENT_ID4",
+                "secret_env_var": "SECRET_ID4"
+            },
         ]
-        self.current_index = 0
+        self.current_index = random.randint(0, len(self.client_keys) - 1)
         self.client_id, self.client_secret = self.get_key()
 
     def get_key(self):
@@ -175,11 +190,11 @@ class GenerateData(ClientKeySwitcher):
         self.user = user
         self.user_fmt = ic.format(self.user)
         self.base_url = "https://api.github.com/users/{}/starred?per-page=1&per_page=100&page=".format(
-            self.user
-        )
+            self.user)
 
         if not self.client_id or not self.client_secret:
-            logging.info(ic.format("Client id and secret not set, using defaults"))
+            logging.info(
+                ic.format("Client id and secret not set, using defaults"))
 
         # perhaps export to a `constants` module
         self.wanted_fields = [
@@ -240,34 +255,32 @@ class GenerateData(ClientKeySwitcher):
             if self.use_batches:
                 with logging_redirect_tqdm():
                     for i in tqdm.tqdm(
-                        range(0, len(iterable) + self.batch_size, self.batch_size),
-                        desc=fn.__name__,
+                            range(0,
+                                  len(iterable) + self.batch_size,
+                                  self.batch_size),
+                            desc=fn.__name__,
                     ):
-                        results += await asyncio.gather(
-                            *[
-                                loop.run_in_executor(
-                                    None,
-                                    functools.partial(fn, *j),
-                                )
-                                for j in iterable[i : i + self.batch_size]
-                            ]
-                        )
+                        results += await asyncio.gather(*[
+                            loop.run_in_executor(
+                                None,
+                                functools.partial(fn, *j),
+                            ) for j in iterable[i:i + self.batch_size]
+                        ])
             else:
-                results += await asyncio.gather(
-                    *[
-                        loop.run_in_executor(
-                            None,
-                            functools.partial(fn, *j),
-                        )
-                        for j in iterable
-                    ]
-                )
+                results += await asyncio.gather(*[
+                    loop.run_in_executor(
+                        None,
+                        functools.partial(fn, *j),
+                    ) for j in iterable
+                ])
 
             return results
 
         return asyncio.run(run_jobs())
 
-    def load_stars_by_page(self, page: int, n_tries: int = 0) -> BaseRequestResponse:
+    def load_stars_by_page(self,
+                           page: int,
+                           n_tries: int = 0) -> BaseRequestResponse:
         """
 
         Parameters
@@ -280,29 +293,25 @@ class GenerateData(ClientKeySwitcher):
         BaseRequestResponse
 
         """
-        logging.debug(
-            "Querying github stars for {}, {}".format(self.user_fmt, ic.format(page))
-        )
-        response = requests.get(
-            self.base_url + str(page), auth=(self.client_id, self.client_secret)
-        )
+        logging.debug("Querying github stars for {}, {}".format(
+            self.user_fmt, ic.format(page)))
+        response = requests.get(self.base_url + str(page),
+                                auth=(self.client_id, self.client_secret))
 
         if response.status_code != 200:
             time.sleep(random.random() * 3 + n_tries)
 
-            logging.critical("Bad request {}".format(ic.format(response.status_code)))
+            logging.critical("Bad request {}".format(
+                ic.format(response.status_code)))
             if response.status_code == 403 and n_tries <= 10:
                 logging.info("Retrying!")
                 self.switch_api_key()
                 n_tries += 1
 
-        out = BaseRequestResponse(
-            responses=response.json(),
-        )
+        out = BaseRequestResponse(responses=response.json(), )
         if len(out.responses) == 0:
-            logging.warning(
-                "No stars for {}, {} found!".format(self.user_fmt, ic.format(page))
-            )
+            logging.warning("No stars for {}, {} found!".format(
+                self.user_fmt, ic.format(page)))
         return out
 
     async def get_pages(self) -> BaseRequestResponse:
@@ -321,18 +330,14 @@ class GenerateData(ClientKeySwitcher):
         start = 0
         batch_size = 10
         while not finished:
-            tmp = await asyncio.gather(
-                *[
-                    loop.run_in_executor(
-                        None,
-                        functools.partial(self.load_stars_by_page, start + i),
-                    )
-                    for i in range(1, batch_size + 1)
-                ]
-            )
+            tmp = await asyncio.gather(*[
+                loop.run_in_executor(
+                    None,
+                    functools.partial(self.load_stars_by_page, start + i),
+                ) for i in range(1, batch_size + 1)
+            ])
             tmp = BaseRequestResponse(
-                responses=list(it.chain(*[t.responses for t in tmp]))
-            )
+                responses=list(it.chain(*[t.responses for t in tmp])))
             if len(tmp.responses) == 0:
                 finished = True
             results += tmp.responses
@@ -340,9 +345,10 @@ class GenerateData(ClientKeySwitcher):
         response = BaseRequestResponse(responses=results)
         return response
 
-    def extract_data(
-        self, plugin_dict: dict, is_plugin: bool, n_retries: int = 0
-    ) -> dict:
+    def extract_data(self,
+                     plugin_dict: dict,
+                     is_plugin: bool,
+                     n_retries: int = 0) -> dict:
         """
         extracts commit data from a plugin or dotfile
 
@@ -378,9 +384,8 @@ class GenerateData(ClientKeySwitcher):
                 commit = commit_req.json()[-1]
                 plugin_data["commit"] = commit["sha"]
             else:
-                logging.critical(
-                    "Bad request {}".format(ic.format(commit_req.status_code))
-                )
+                logging.critical("Bad request {}".format(
+                    ic.format(commit_req.status_code)))
                 if commit_req.status_code == 403 and n_retries <= 10:
                     logging.info("Retrying!")
                     self.switch_api_key()
@@ -428,9 +433,8 @@ class GenerateData(ClientKeySwitcher):
 
         while url:
             if response.status_code != 200:
-                logging.critical(
-                    "Bad request {}".format(ic.format(response.status_code))
-                )
+                logging.critical("Bad request {}".format(
+                    ic.format(response.status_code)))
                 if response.status_code == 403 and n_retries < 10:
                     logging.info("Retrying...")
                     self.switch_api_key()
@@ -472,9 +476,8 @@ class GenerateData(ClientKeySwitcher):
             lambda x, y: x.lower().endswith(y.lower()),
             [".nvim", "-nvim", ".vim"],
         )  # checks if d['full_name'] ends with .nvim, -nvim, .vim
-        begins_dot = name_mapper(
-            lambda x, y: x.lower().startswith(y.lower()), "."
-        )  # check if d['name'] starts with '.'
+        begins_dot = name_mapper(lambda x, y: x.lower().startswith(y.lower()),
+                                 ".")  # check if d['name'] starts with '.'
         fixed_plugin_conds = []
         fixed_dotfile_conds = [
             fullname_mapper(
@@ -532,7 +535,7 @@ class GenerateData(ClientKeySwitcher):
                 if case == (1, 0):
                     return (plugin_data, bool(case[0]))
                 else:
-                    return (plugin_data,)
+                    return (plugin_data, )
             else:
                 return (0, 0, 0)
 
@@ -544,21 +547,18 @@ class GenerateData(ClientKeySwitcher):
         self.extract_jobs.extend([j for j in initial_jobs if len(j) == 2])
 
         type_counts = Counter(
-            ["plugin" if not x[-1] else "dotfile" for x in self.extract_jobs]
-        )
+            ["plugin" if not x[-1] else "dotfile" for x in self.extract_jobs])
         # __import__("pdb").set_trace()
 
-        filetrees = self.async_helper(
-            lambda x: (x, self.get_filetree(x)), self.filetree_jobs
-        )
+        filetrees = self.async_helper(lambda x: (x, self.get_filetree(x)),
+                                      self.filetree_jobs)
         filetrees = [x for x in filetrees if x[-1] is not None]
         for res in filetrees:
             tree = res[-1]
             if "lua" in tree:
-                if any(
-                    "init" in item and (item.endswith("lua") or item.endswith("vim"))
-                    for item in tree
-                ):
+                if any("init" in item and (
+                        item.endswith("lua") or item.endswith("vim"))
+                       for item in tree):
                     self.extract_jobs.append((res[0], False))
                     type_counts.update(["dotfile"])
                     logging.info("Adding dotfile: {}".format(res[0]["name"]))
@@ -584,17 +584,15 @@ class GenerateData(ClientKeySwitcher):
         results = []
         with logging_redirect_tqdm():
             for i in tqdm.tqdm(
-                range(0, len(self.extract_jobs) + self.batch_size, self.batch_size)
-            ):
-                results += await asyncio.gather(
-                    *[
-                        loop.run_in_executor(
-                            None,
-                            functools.partial(self.extract_data, *j),
-                        )
-                        for j in self.extract_jobs[i : i + self.batch_size]
-                    ]
-                )
+                    range(0,
+                          len(self.extract_jobs) + self.batch_size,
+                          self.batch_size)):
+                results += await asyncio.gather(*[
+                    loop.run_in_executor(
+                        None,
+                        functools.partial(self.extract_data, *j),
+                    ) for j in self.extract_jobs[i:i + self.batch_size]
+                ])
         return results
 
     @staticmethod
@@ -613,7 +611,10 @@ class GenerateData(ClientKeySwitcher):
 
         """
         results = sorted(results, key=lambda x: x["type"])
-        grouped = {k: list(g) for k, g in it.groupby(results, lambda x: x["type"])}
+        grouped = {
+            k: list(g)
+            for k, g in it.groupby(results, lambda x: x["type"])
+        }
         ic.configureOutput("Group Counts: ")
         logging.info(ic.format(len(grouped["plugin"])))
         logging.info(ic.format(len(grouped["dotfile"])))
@@ -646,7 +647,10 @@ class GenerateData(ClientKeySwitcher):
         with open("dotfiles.json", "+w") as f:
             f.write(json.dumps(dotfile_dict, sort_keys=True, indent=4))
 
-    def __call__(self, *args: Any, write_results: bool = True, **kwds: Any) -> Any:
+    def __call__(self,
+                 *args: Any,
+                 write_results: bool = True,
+                 **kwds: Any) -> Any:
         """
 
          Parameters
@@ -668,11 +672,8 @@ class GenerateData(ClientKeySwitcher):
         base = asyncio.run(self.get_pages())
         self.make_jobs(base)
         ic.configureOutput(prefix="")
-        logging.info(
-            "Running {} jobs!".format(
-                ic.format(len(self.filetree_jobs) + len(self.extract_jobs))
-            )
-        )
+        logging.info("Running {} jobs!".format(
+            ic.format(len(self.filetree_jobs) + len(self.extract_jobs))))
         results = self.async_helper(self.extract_data, self.extract_jobs)
         results_grouped = self.sort_results(results)
         if write_results:
