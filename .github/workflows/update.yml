@@ -46,6 +46,7 @@ jobs:
       - name: Run pythonAuto
         run: |
           poetry run python generate_database.py
+          poetry run python db_checker.py
 
       - name: Commit database changes
         run: |
@@ -54,6 +55,8 @@ jobs:
           if [[ ! -z $(git status -s) ]]; then
             git add database.json
             git commit -m "chore: update plugins database"
+            git add README.md
+            git commit -m "chore: update readme stats"
             git add dotfiles.json
             git commit -m "chore: update dotfiles database"
           fi

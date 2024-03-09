@@ -527,12 +527,10 @@ def make_jobs(base) -> None:
     def name_function(x, y):
         return any(x.lower().startswith(ig.lower()) for ig in y)
 
-
-    fixed_plugin_conds = [
-    ]
+    fixed_plugin_conds = []
     fixed_dotfile_conds = [
         fullname_mapper(
-            lambda x, y: y.lower() in x.lower(),unwanted_config
+            lambda x, y: y.lower() in x.lower(), unwanted_config
         ),  # checks if any of the unwanted config names are in d['full_name']
         description_mapper(
             lambda x,
@@ -541,29 +539,18 @@ def make_jobs(base) -> None:
         ),  # check if any of the unwanted config names are in d['description']
     ]
     both_conditions = [
-        language_mapper(
-            lambda x, y: x.lower() == "lua", ["lua"]
-        )
+        language_mapper(lambda x, y: x.lower() == "lua", ["lua"])
     ]
 
-    optional_plugin_conds = [
-        ends_nvim,
+    optional_plugin_conds = [ends_nvim,]
+    optional_dotfile_conds = [begins_dot,]
 
-
-    ]
-    optional_dotfile_conds = [
-        begins_dot,
-    ]
-
-    conds = (fixed_plugin_conds,fixed_dotfile_conds)
+    conds = (fixed_plugin_conds, fixed_dotfile_conds)
     cases = {
         # mappings for conditions based on conditions
         (1, 0): "plugin_count",
         (0, 1): "dotfile_count",
     }
-
-
-
 
     def make_jobtype(response):
         plugin_data = response
