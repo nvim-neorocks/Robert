@@ -62,24 +62,6 @@ class DatabaseAnalyzer:
         return topics_series.head(self.lengthB)  # Only the top 5 topics
 
     def print_summary(self):
-        # self.console.print(
-        #     f"Total plugins: {len(self.plugins_df)}", style="bold green")
-        #
-        # stats_df = self.calculate_statistics()
-        # self.console.print("\nStatistical Summary:", style="bold underline")
-        # self.print_table(stats_df, ['Metric', 'Mean', 'Standard Deviation'])
-        #
-        # lang_dist = self.get_language_distribution()
-        # self.console.print("\nLanguage distribution:", style="bold underline")
-        # self.print_table(lang_dist, ['Language', 'Count'])
-
-        # avg_activity_score_by_lang = self.get_average_activity_score_by_language(
-        # )
-        # self.console.print("\nAverage Activity Score by Language:",
-        #                    style="bold underline")
-        # self.print_table(avg_activity_score_by_lang,
-        #                  ['Language', 'Average Activity Score'])
-
         topics_distribution = self.get_topics_distribution()
         self.console.print("\nTop Topics distribution:",
                            style="bold underline")

@@ -134,7 +134,12 @@ class ClientKeySwitcher:
                 "id_env_var": "CLIENT_ID3",
                 "secret_env_var": "SECRET_ID3"
             },
+            {
+                "id_env_var": "CLIENT_ID4",
+                "secret_env_var": "SECRET_ID4"
+            },
         ]
+
         self.current_index = random.randint(0, len(self.client_keys) - 1)
         self.client_id, self.client_secret = self.get_key()
 
@@ -143,11 +148,11 @@ class ClientKeySwitcher:
         self.current_index = (self.current_index + 1) % len(self.client_keys)
         client_id = os.environ.get(current_keys["id_env_var"])
         client_secret = os.environ.get(current_keys["secret_env_var"])
-        logging.info(ic.format(f"Using Keys: {current_keys}"))
+        logging.critical(
+            ic.format(f"Switching API Key -> Using Keys: {current_keys}"))
         return client_id, client_secret
 
     def switch_api_key(self):
-        logging.critical(f"\n\nSwitching API Key\n\n")
         self.client_id, self.client_secret = self.get_key()
 
 
@@ -219,6 +224,7 @@ class GenerateData(ClientKeySwitcher):
         self.unwanted_config = [
             "lvim",
             "dotfiles",
+            "dotfile",
             "dots",
             "nvim-dotfiles",
             "nvim-qt",
@@ -471,18 +477,17 @@ class GenerateData(ClientKeySwitcher):
         description_mapper = key_mapper("description")  # uses d['description']
         language_mapper = key_mapper("language")
         archive_mapper = key_mapper("archived")
-  # checks if d['full_name'] ends with .nvim, -nvim, .vim
-  # check if d['name'] starts with '.'
+        # checks if d['full_name'] ends with .nvim, -nvim, .vim
+        # check if d['name'] starts with '.'
 
         fixed_plugin_conds = []
-        fixed_dotfile_conds = [
-        ]
+        fixed_dotfile_conds = []
 
         both_conditions = [
             language_mapper(
                 # lambda x, y: x.lower() == "lua", ["lua"]
                 lambda x, y: self.debug_print(x, y),
-                ["lua"],
+                ["lua", "vim"],
             ),
             # sourcery skip: swap-if-expression
             archive_mapper(lambda x, _: 1 if not x else 0, ["_"]),
@@ -490,14 +495,12 @@ class GenerateData(ClientKeySwitcher):
 
         optional_plugin_conds = [
             fullname_mapper(
-            lambda x, y: x.lower().endswith(y.lower()),
-            [".nvim", "-nvim", ".vim"],
-        ),
-
+                lambda x, y: x.lower().endswith(y.lower()),
+                [".nvim", "-nvim", ".vim"],
+            ),
         ]
         optional_dotfile_conds = [
-            name_mapper(lambda x, y: x.lower().startswith(y.lower()),
-                                 "."),
+            name_mapper(lambda x, y: x.lower().startswith(y.lower()), "."),
             fullname_mapper(
                 lambda x, y: y.lower() in x.lower(), self.unwanted_config
             ),  # checks if any of the unwanted config names are in d['full_name']
@@ -505,7 +508,6 @@ class GenerateData(ClientKeySwitcher):
                 lambda x, y: y.lower() in x.lower() if x is not None else 0,
                 self.unwanted_config,
             ),  # check if any of the unwanted config names are in d['description']
-
         ]
         cases = {
             # mappings for conditions based on conditions
@@ -518,7 +520,10 @@ class GenerateData(ClientKeySwitcher):
                 is_plugin = sum(cn(x) for cn in fixed_plugin_conds)
                 optional_plugin = sum(cn(x) for cn in optional_plugin_conds)
                 optional_dotfile = sum(cn(x) for cn in optional_dotfile_conds)
-                return (0, 1) if optional_dotfile > 0 else (1, 0) if is_plugin + optional_plugin > 1 else (0, 1)
+                return (0, 1) if optional_dotfile > 0 else (
+                    1, 0) if is_plugin + optional_plugin > 1 else (0, 1)
+                # return (1, 0) if is_plugin + optional_plugin > 1 else (0, 1)
+
             else:
                 return (0, 0)
 
@@ -549,7 +554,16 @@ class GenerateData(ClientKeySwitcher):
         filetrees = [x for x in filetrees if x[-1] is not None]
         for res in filetrees:
             tree = res[-1]
+
+            # Secondary level filter
             if "lua" in tree:
+                # Teriary level filter
+                for x in self.unwanted_config:
+                    description = res[0].get("description", "")
+                    if res[0]["name"] in x or (description and description in x):
+                        continue
+
+                # Quaternary level filter
                 if any("init" in item and (
                         item.endswith("lua") or item.endswith("vim"))
                        for item in tree):
