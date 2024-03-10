@@ -134,10 +134,6 @@ class ClientKeySwitcher:
                 "id_env_var": "CLIENT_ID3",
                 "secret_env_var": "SECRET_ID3"
             },
-            {
-                "id_env_var": "CLIENT_ID4",
-                "secret_env_var": "SECRET_ID4"
-            },
         ]
         self.current_index = random.randint(0, len(self.client_keys) - 1)
         self.client_id, self.client_secret = self.get_key()
@@ -147,6 +143,7 @@ class ClientKeySwitcher:
         self.current_index = (self.current_index + 1) % len(self.client_keys)
         client_id = os.environ.get(current_keys["id_env_var"])
         client_secret = os.environ.get(current_keys["secret_env_var"])
+        logging.info(ic.format(f"Using Keys: {current_keys}"))
         return client_id, client_secret
 
     def switch_api_key(self):
@@ -220,6 +217,7 @@ class GenerateData(ClientKeySwitcher):
         ]
         # this is not accurate but it will be good enough for now.
         self.unwanted_config = [
+            "lvim",
             "dotfiles",
             "dots",
             "nvim-dotfiles",
@@ -368,7 +366,7 @@ class GenerateData(ClientKeySwitcher):
         plugin_name = ""
 
         for field in plugin_dict.keys():
-            if field == "name":
+            if field == "full_name":
                 plugin_name = plugin_dict[field]
             if field in self.wanted_fields:
                 plugin_data[field] = plugin_dict[field]
@@ -472,14 +470,34 @@ class GenerateData(ClientKeySwitcher):
         fullname_mapper = key_mapper("full_name")  # uses d['full_name']
         description_mapper = key_mapper("description")  # uses d['description']
         language_mapper = key_mapper("language")
-        ends_nvim = fullname_mapper(
-            lambda x, y: x.lower().endswith(y.lower()),
-            [".nvim", "-nvim", ".vim"],
-        )  # checks if d['full_name'] ends with .nvim, -nvim, .vim
-        begins_dot = name_mapper(lambda x, y: x.lower().startswith(y.lower()),
-                                 ".")  # check if d['name'] starts with '.'
+        archive_mapper = key_mapper("archived")
+  # checks if d['full_name'] ends with .nvim, -nvim, .vim
+  # check if d['name'] starts with '.'
+
         fixed_plugin_conds = []
         fixed_dotfile_conds = [
+        ]
+
+        both_conditions = [
+            language_mapper(
+                # lambda x, y: x.lower() == "lua", ["lua"]
+                lambda x, y: self.debug_print(x, y),
+                ["lua"],
+            ),
+            # sourcery skip: swap-if-expression
+            archive_mapper(lambda x, _: 1 if not x else 0, ["_"]),
+        ]
+
+        optional_plugin_conds = [
+            fullname_mapper(
+            lambda x, y: x.lower().endswith(y.lower()),
+            [".nvim", "-nvim", ".vim"],
+        ),
+
+        ]
+        optional_dotfile_conds = [
+            name_mapper(lambda x, y: x.lower().startswith(y.lower()),
+                                 "."),
             fullname_mapper(
                 lambda x, y: y.lower() in x.lower(), self.unwanted_config
             ),  # checks if any of the unwanted config names are in d['full_name']
@@ -487,20 +505,7 @@ class GenerateData(ClientKeySwitcher):
                 lambda x, y: y.lower() in x.lower() if x is not None else 0,
                 self.unwanted_config,
             ),  # check if any of the unwanted config names are in d['description']
-        ]
-        both_conditions = [
-            language_mapper(
-                # lambda x, y: x.lower() == "lua", ["lua"]
-                lambda x, y: self.debug_print(x, y),
-                ["lua"],
-            )
-        ]
 
-        optional_plugin_conds = [
-            ends_nvim,
-        ]
-        optional_dotfile_conds = [
-            begins_dot,
         ]
         cases = {
             # mappings for conditions based on conditions
@@ -508,23 +513,12 @@ class GenerateData(ClientKeySwitcher):
             (0, 1): "dotfile_count",
         }
 
-        conds = (fixed_plugin_conds, fixed_dotfile_conds)
-
         def custom_case(x):
             if all(cn(x) for cn in both_conditions):
                 is_plugin = sum(cn(x) for cn in fixed_plugin_conds)
                 optional_plugin = sum(cn(x) for cn in optional_plugin_conds)
-                #  TODO: (vsedov) (17:39:16 - 07/03/24): Maybe remove this
-                #  condition, considering the way we will check the dotfiles, is
-                #  through the request based system instead, once that is up and
-                #  running
-                is_dotfile = sum(cn(x) for cn in fixed_dotfile_conds)
                 optional_dotfile = sum(cn(x) for cn in optional_dotfile_conds)
-
-                if is_plugin + optional_plugin > 1:
-                    return (1, 0)
-                else:
-                    return (0, 1)
+                return (0, 1) if optional_dotfile > 0 else (1, 0) if is_plugin + optional_plugin > 1 else (0, 1)
             else:
                 return (0, 0)
 
