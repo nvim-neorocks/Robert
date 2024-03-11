@@ -4,6 +4,12 @@ from functools import reduce
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+with open(f'{root}/database.json', 'r') as f:
+    database = json.load(f)
+
+with open(f'{root}/json/plugins.json', 'r') as f:
+    plugins = json.load(f)
+
 
 def process_plugin(plugin):
     return {
@@ -14,22 +20,28 @@ def process_plugin(plugin):
         "dependencies":
         reduce(lambda x, y: x + y, plugin.get("dependencies", ["None"])),
         "license":
-        plugin["license"]["spdx_id"] if plugin["license"] else None,
+        plugin["license"]["spdx_id"],
         "description":
-        plugin.get("description", None),
+        plugin.get("description") or "No Description",
     }
 
 
-database = json.load(open('database.json', 'r'))
-plugins = json.load(open(f'{root}/json/plugins.json', 'r'))
-
-filtered_plugins = [
-    plugin for plugin in database.values() if plugin["stargazers_count"] > 250
+unique_crossref_plugins = [
+    plugin for plugin in list(
+        map(process_plugin, [
+            plugin for plugin in database.values() if
+            plugin["stargazers_count"] > 250 and plugin["license"] is not None
+        ])) if plugin["shorthand"] not in (
+            {plugin["shorthand"]
+             for plugin in plugins["plugins"]})
 ]
 
-crossref_plugins = list(map(process_plugin, filtered_plugins))
+print(
+    f"Found {len(unique_crossref_plugins)} unique plugins to cross-reference.")
 
 with open(f'{root}/json/crossref.json', 'w') as f:
-    json.dump({"plugins": crossref_plugins}, f, indent=4)
+    json.dump({"plugins": unique_crossref_plugins}, f, indent=4)
 
-print("Cross-referenced plugins written to crossref.json.")
+print(
+    "Advanced cross-referenced plugins have been successfully inscribed into the mystical crossref.json."
+)
