@@ -206,6 +206,7 @@ class GenerateData(ClientKeySwitcher):
         ]
         # this is not accurate but it will be good enough for now.
         self.unwanted_config = [
+            "ide", 
             "astrocommunity",
             "lvim",
             "dotfiles",
