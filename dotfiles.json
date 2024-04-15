@@ -1208,7 +1208,6 @@
     "JeremyTechDev/nvim": {
         "archived": false,
         "clone_url": "https://github.com/JeremyTechDev/nvim.git",
-        "commit": "5d8798dd401f75373faf158187327dcaa888f363",
         "contents_url": "https://api.github.com/repos/JeremyTechDev/nvim/contents/{+path}",
         "created_at": "2021-02-12T22:17:40Z",
         "default_branch": "master",
@@ -1978,7 +1977,7 @@
             "url": "https://api.github.com/users/NvChad"
         },
         "private": false,
-        "stargazers_count": 22779,
+        "stargazers_count": 22782,
         "topics": [
             "dotfiles",
             "editor",
@@ -2001,7 +2000,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-04-15T02:10:51Z"
+        "updated_at": "2024-04-15T04:16:29Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -10214,7 +10213,7 @@
             "url": "https://api.github.com/users/nshen"
         },
         "private": false,
-        "stargazers_count": 1143,
+        "stargazers_count": 1144,
         "topics": [
             "learn-vim",
             "learning-by-doing",
@@ -10224,7 +10223,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-04-14T15:30:20Z"
+        "updated_at": "2024-04-15T03:28:23Z"
     },
     "nvim-lua/kickstart.nvim": {
         "archived": false,
@@ -10235,7 +10234,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 11109,
+        "forks_count": 11115,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -10267,9 +10266,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 14352,
+        "stargazers_count": 14356,
         "topics": [],
-        "updated_at": "2024-04-15T02:52:32Z"
+        "updated_at": "2024-04-15T03:47:47Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
