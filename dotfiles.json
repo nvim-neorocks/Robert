@@ -377,7 +377,7 @@
             "url": "https://api.github.com/users/AstroNvim"
         },
         "private": false,
-        "stargazers_count": 11922,
+        "stargazers_count": 11924,
         "topics": [
             "astronvim",
             "astrovim",
@@ -396,7 +396,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-05-03T17:11:42Z"
+        "updated_at": "2024-05-04T06:05:53Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -1463,7 +1463,7 @@
         "default_branch": "main",
         "description": "Neovim config for the lazy",
         "fork": false,
-        "forks_count": 872,
+        "forks_count": 873,
         "full_name": "LazyVim/LazyVim",
         "language": "Lua",
         "license": {
@@ -1504,7 +1504,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-05-04T03:30:38Z"
+        "updated_at": "2024-05-04T07:25:38Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1547,7 +1547,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 17519,
+        "stargazers_count": 17521,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -1566,7 +1566,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-05-04T03:50:42Z"
+        "updated_at": "2024-05-04T06:19:19Z"
     },
     "LunarVim/Neovim-from-scratch": {
         "archived": false,
@@ -1609,7 +1609,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 5252,
+        "stargazers_count": 5253,
         "topics": [
             "hacktoberfest",
             "hacktoberfest2022",
@@ -1620,7 +1620,7 @@
             "nvim-plugin",
             "nvimrc"
         ],
-        "updated_at": "2024-05-04T02:30:37Z"
+        "updated_at": "2024-05-04T05:28:42Z"
     },
     "Luxed/nvim-config": {
         "archived": false,
@@ -1946,7 +1946,7 @@
         "default_branch": "v2.5",
         "description": "Blazing fast Neovim config providing solid defaults and a beautiful UI, enhancing your neovim experience.",
         "fork": false,
-        "forks_count": 2042,
+        "forks_count": 2041,
         "full_name": "NvChad/NvChad",
         "language": "Lua",
         "license": {
@@ -1978,7 +1978,7 @@
             "url": "https://api.github.com/users/NvChad"
         },
         "private": false,
-        "stargazers_count": 22995,
+        "stargazers_count": 22998,
         "topics": [
             "dotfiles",
             "editor",
@@ -2001,7 +2001,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-05-04T03:30:27Z"
+        "updated_at": "2024-05-04T06:17:04Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -2866,7 +2866,7 @@
         "default_branch": "master",
         "description": "Awesome Configurations for C/C++, Zig, Rust, Python, Shell, Web and Lua development in NeoVim",
         "fork": false,
-        "forks_count": 47,
+        "forks_count": 48,
         "full_name": "Ultra-Code/awesome-neovim",
         "language": "Lua",
         "license": {
@@ -4144,7 +4144,7 @@
             "url": "https://api.github.com/users/ayamir"
         },
         "private": false,
-        "stargazers_count": 2751,
+        "stargazers_count": 2752,
         "topics": [
             "dotfiles",
             "editor",
@@ -4159,7 +4159,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-05-04T04:01:40Z"
+        "updated_at": "2024-05-04T07:36:43Z"
     },
     "b0o/nvim-conf": {
         "archived": false,
@@ -8188,7 +8188,7 @@
     "liubang/nvimrc": {
         "archived": false,
         "clone_url": "https://github.com/liubang/nvimrc.git",
-        "commit": "7c980695b27453ece86a8293f446bcb87f453605",
+        "commit": "ffacc453a0068b24f20da85aa97887f2a4e9ae52",
         "contents_url": "https://api.github.com/repos/liubang/nvimrc/contents/{+path}",
         "created_at": "2017-12-13T07:20:10Z",
         "default_branch": "main",
@@ -8233,7 +8233,7 @@
             "neovim",
             "neovim-config"
         ],
-        "updated_at": "2024-05-03T17:33:54Z"
+        "updated_at": "2024-05-04T06:52:48Z"
     },
     "lostl1ght/nvim-lazygit": {
         "archived": false,
@@ -8380,7 +8380,7 @@
         "default_branch": "master",
         "description": "Indent guides  for Neovim",
         "fork": false,
-        "forks_count": 94,
+        "forks_count": 95,
         "full_name": "lukas-reineke/indent-blankline.nvim",
         "language": "Lua",
         "license": {
@@ -10182,7 +10182,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 12801,
+        "forks_count": 12810,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -10214,9 +10214,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 15084,
+        "stargazers_count": 15087,
         "topics": [],
-        "updated_at": "2024-05-04T03:36:15Z"
+        "updated_at": "2024-05-04T07:38:32Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -10948,7 +10948,7 @@
             "url": "https://api.github.com/users/ray-x"
         },
         "private": false,
-        "stargazers_count": 344,
+        "stargazers_count": 345,
         "topics": [
             "dotfiles",
             "lua",
@@ -10957,7 +10957,7 @@
             "nvimrc",
             "vimrc"
         ],
-        "updated_at": "2024-05-03T22:37:48Z"
+        "updated_at": "2024-05-04T06:13:57Z"
     },
     "ray-x/sad.nvim": {
         "archived": false,
@@ -11329,7 +11329,7 @@
         "default_branch": "main",
         "description": "A generic and modular lua sidebar for Neovim",
         "fork": false,
-        "forks_count": 31,
+        "forks_count": 32,
         "full_name": "sidebar-nvim/sidebar.nvim",
         "language": "Lua",
         "license": null,
