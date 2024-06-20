@@ -339,7 +339,7 @@
     "AstroNvim/AstroNvim": {
         "archived": false,
         "clone_url": "https://github.com/AstroNvim/AstroNvim.git",
-        "commit": "8fc1f2492904b2f96b611690d86a652e5271e30e",
+        "commit": "7ec1742a3d32d519b93397b7d943ffd259389c7a",
         "contents_url": "https://api.github.com/repos/AstroNvim/AstroNvim/contents/{+path}",
         "created_at": "2022-02-02T22:33:34Z",
         "default_branch": "main",
@@ -355,7 +355,7 @@
             "spdx_id": "GPL-3.0",
             "url": "https://api.github.com/licenses/gpl-3.0"
         },
-        "open_issues_count": 5,
+        "open_issues_count": 4,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/102238249?v=4",
             "events_url": "https://api.github.com/users/AstroNvim/events{/privacy}",
@@ -396,7 +396,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-06-19T18:30:49Z"
+        "updated_at": "2024-06-19T21:52:37Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -1457,7 +1457,7 @@
     "LazyVim/LazyVim": {
         "archived": false,
         "clone_url": "https://github.com/LazyVim/LazyVim.git",
-        "commit": "b87d18cc17300c49bf8bec4b81a3416024a39a21",
+        "commit": "af5a59be90eb956ef82d5fcfbbd1f602f8fcc3f5",
         "contents_url": "https://api.github.com/repos/LazyVim/LazyVim/contents/{+path}",
         "created_at": "2022-12-30T16:31:42Z",
         "default_branch": "main",
@@ -1473,7 +1473,7 @@
             "spdx_id": "Apache-2.0",
             "url": "https://api.github.com/licenses/apache-2.0"
         },
-        "open_issues_count": 22,
+        "open_issues_count": 21,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/122150220?v=4",
             "events_url": "https://api.github.com/users/LazyVim/events{/privacy}",
@@ -1495,7 +1495,7 @@
             "url": "https://api.github.com/users/LazyVim"
         },
         "private": false,
-        "stargazers_count": 14982,
+        "stargazers_count": 14986,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1504,7 +1504,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-06-19T17:37:13Z"
+        "updated_at": "2024-06-20T00:13:57Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1609,7 +1609,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 5283,
+        "stargazers_count": 5282,
         "topics": [
             "hacktoberfest",
             "hacktoberfest2022",
@@ -1620,7 +1620,7 @@
             "nvim-plugin",
             "nvimrc"
         ],
-        "updated_at": "2024-06-19T16:57:35Z"
+        "updated_at": "2024-06-19T21:29:11Z"
     },
     "Luxed/nvim-config": {
         "archived": false,
@@ -1791,7 +1791,7 @@
             "url": "https://api.github.com/users/NTBBloodbath"
         },
         "private": false,
-        "stargazers_count": 332,
+        "stargazers_count": 333,
         "topics": [
             "config-management",
             "lua",
@@ -1799,7 +1799,7 @@
             "neovim-lua",
             "switching-configs"
         ],
-        "updated_at": "2024-06-01T21:58:51Z"
+        "updated_at": "2024-06-19T20:40:42Z"
     },
     "NTBBloodbath/nvim": {
         "archived": false,
@@ -2004,7 +2004,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-06-19T19:35:56Z"
+        "updated_at": "2024-06-19T23:22:05Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -3855,7 +3855,7 @@
             "url": "https://api.github.com/users/artart222"
         },
         "private": false,
-        "stargazers_count": 873,
+        "stargazers_count": 872,
         "topics": [
             "dotfiles",
             "ide",
@@ -3871,7 +3871,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-06-04T15:15:46Z"
+        "updated_at": "2024-06-19T23:11:52Z"
     },
     "artofnothingness/nvim": {
         "archived": false,
@@ -6766,7 +6766,7 @@
         "default_branch": "main",
         "description": null,
         "fork": false,
-        "forks_count": 13,
+        "forks_count": 14,
         "full_name": "ibhagwan/nvim-lua",
         "language": "Lua",
         "license": null,
@@ -6967,7 +6967,7 @@
             "url": "https://api.github.com/users/jamestthompson3"
         },
         "private": false,
-        "stargazers_count": 839,
+        "stargazers_count": 840,
         "topics": [
             "docker",
             "lua",
@@ -6975,7 +6975,7 @@
             "nvim",
             "remote-containers"
         ],
-        "updated_at": "2024-06-17T17:55:00Z"
+        "updated_at": "2024-06-19T20:08:03Z"
     },
     "jannikbrozy/vimrc": {
         "archived": false,
@@ -9967,7 +9967,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 15802,
+        "forks_count": 15811,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9999,9 +9999,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 16336,
+        "stargazers_count": 16338,
         "topics": [],
-        "updated_at": "2024-06-19T19:48:52Z"
+        "updated_at": "2024-06-19T23:31:08Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -11669,7 +11669,7 @@
             "url": "https://api.github.com/users/tsakirist"
         },
         "private": false,
-        "stargazers_count": 90,
+        "stargazers_count": 91,
         "topics": [
             "lazy",
             "lua",
@@ -11677,7 +11677,7 @@
             "neovim-plugin",
             "telescope-extension"
         ],
-        "updated_at": "2024-06-13T12:58:06Z"
+        "updated_at": "2024-06-19T22:33:43Z"
     },
     "ttys3/nvim-config": {
         "archived": false,
