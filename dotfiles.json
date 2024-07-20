@@ -517,7 +517,7 @@
     "Bekaboo/dropbar.nvim": {
         "archived": false,
         "clone_url": "https://github.com/Bekaboo/dropbar.nvim.git",
-        "commit": "f83551969f796dddd05b57782f471dc2a50c35ee",
+        "commit": "fa43ea3546f9e8a8fab5eecc18bce2cfd2946249",
         "contents_url": "https://api.github.com/repos/Bekaboo/dropbar.nvim/contents/{+path}",
         "created_at": "2023-05-25T05:57:15Z",
         "default_branch": "master",
@@ -533,7 +533,7 @@
             "spdx_id": "GPL-3.0",
             "url": "https://api.github.com/licenses/gpl-3.0"
         },
-        "open_issues_count": 3,
+        "open_issues_count": 4,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/76579810?v=4",
             "events_url": "https://api.github.com/users/Bekaboo/events{/privacy}",
@@ -566,7 +566,7 @@
             "treesitter",
             "winbar"
         ],
-        "updated_at": "2024-07-18T22:07:25Z"
+        "updated_at": "2024-07-20T18:51:50Z"
     },
     "Borwe/nvimrc": {
         "archived": false,
@@ -1457,7 +1457,7 @@
     "LazyVim/LazyVim": {
         "archived": false,
         "clone_url": "https://github.com/LazyVim/LazyVim.git",
-        "commit": "a1335e59e15ef55ee43dd30120da948bc0f293c3",
+        "commit": "150523b77b6e848c4135a97a5fd8f6f79a6f4443",
         "contents_url": "https://api.github.com/repos/LazyVim/LazyVim/contents/{+path}",
         "created_at": "2022-12-30T16:31:42Z",
         "default_branch": "main",
@@ -1473,7 +1473,7 @@
             "spdx_id": "Apache-2.0",
             "url": "https://api.github.com/licenses/apache-2.0"
         },
-        "open_issues_count": 26,
+        "open_issues_count": 25,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/122150220?v=4",
             "events_url": "https://api.github.com/users/LazyVim/events{/privacy}",
@@ -1495,7 +1495,7 @@
             "url": "https://api.github.com/users/LazyVim"
         },
         "private": false,
-        "stargazers_count": 15541,
+        "stargazers_count": 15542,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1504,7 +1504,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-07-20T15:21:39Z"
+        "updated_at": "2024-07-20T20:06:22Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1547,7 +1547,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 17847,
+        "stargazers_count": 17849,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -1566,7 +1566,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-07-20T13:02:39Z"
+        "updated_at": "2024-07-20T17:56:03Z"
     },
     "LunarVim/Neovim-from-scratch": {
         "archived": false,
@@ -1981,7 +1981,7 @@
             "url": "https://api.github.com/users/NvChad"
         },
         "private": false,
-        "stargazers_count": 23793,
+        "stargazers_count": 23794,
         "topics": [
             "dotfiles",
             "editor",
@@ -2004,7 +2004,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-07-20T15:14:07Z"
+        "updated_at": "2024-07-20T19:37:54Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -4622,13 +4622,13 @@
             "url": "https://api.github.com/users/chrisgrieser"
         },
         "private": false,
-        "stargazers_count": 564,
+        "stargazers_count": 565,
         "topics": [
             "camelcase",
             "editing-support",
             "nvim-plugin"
         ],
-        "updated_at": "2024-07-18T22:23:37Z"
+        "updated_at": "2024-07-20T20:00:50Z"
     },
     "claidler/nvim-config": {
         "archived": false,
@@ -7106,7 +7106,7 @@
     "johnsci911/nvim-ide": {
         "archived": false,
         "clone_url": "https://github.com/johnsci911/nvim-ide.git",
-        "commit": "ef5cc8824cab753ad2e7e54f28124dbdbb198524",
+        "commit": "baa8c7a18082b40bb6fca63ef45a5f4382d1b303",
         "contents_url": "https://api.github.com/repos/johnsci911/nvim-ide/contents/{+path}",
         "created_at": "2020-11-07T09:09:30Z",
         "default_branch": "master",
@@ -7146,7 +7146,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-07-17T16:36:49Z"
+        "updated_at": "2024-07-20T19:16:44Z"
     },
     "jordanvieler/cmp-neurogenesis": {
         "archived": false,
@@ -8171,7 +8171,7 @@
             "spdx_id": "MIT",
             "url": "https://api.github.com/licenses/mit"
         },
-        "open_issues_count": 22,
+        "open_issues_count": 23,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/12900252?v=4",
             "events_url": "https://api.github.com/users/lukas-reineke/events{/privacy}",
@@ -8193,7 +8193,7 @@
             "url": "https://api.github.com/users/lukas-reineke"
         },
         "private": false,
-        "stargazers_count": 3980,
+        "stargazers_count": 3979,
         "topics": [
             "hacktoberfest",
             "indentation",
@@ -8202,7 +8202,7 @@
             "vim",
             "vim-plugin"
         ],
-        "updated_at": "2024-07-20T15:31:23Z"
+        "updated_at": "2024-07-20T16:42:45Z"
     },
     "luukvbaal/statuscol.nvim": {
         "archived": false,
@@ -9746,7 +9746,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 17437,
+        "forks_count": 17446,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9778,9 +9778,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 17076,
+        "stargazers_count": 17084,
         "topics": [],
-        "updated_at": "2024-07-20T14:41:39Z"
+        "updated_at": "2024-07-20T19:52:22Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
