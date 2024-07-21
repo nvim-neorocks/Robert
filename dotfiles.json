@@ -377,7 +377,7 @@
             "url": "https://api.github.com/users/AstroNvim"
         },
         "private": false,
-        "stargazers_count": 12261,
+        "stargazers_count": 12262,
         "topics": [
             "astronvim",
             "astrovim",
@@ -396,7 +396,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-07-21T14:56:11Z"
+        "updated_at": "2024-07-21T18:40:38Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -439,7 +439,7 @@
             "url": "https://api.github.com/users/AstroNvim"
         },
         "private": false,
-        "stargazers_count": 1067,
+        "stargazers_count": 1068,
         "topics": [
             "astronvim",
             "astrovim",
@@ -451,7 +451,7 @@
             "neovim-lua-plugin",
             "neovim-plugin"
         ],
-        "updated_at": "2024-07-20T23:05:17Z"
+        "updated_at": "2024-07-21T19:29:35Z"
     },
     "Avimitin/nvim": {
         "archived": false,
@@ -533,7 +533,7 @@
             "spdx_id": "GPL-3.0",
             "url": "https://api.github.com/licenses/gpl-3.0"
         },
-        "open_issues_count": 4,
+        "open_issues_count": 5,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/76579810?v=4",
             "events_url": "https://api.github.com/users/Bekaboo/events{/privacy}",
@@ -1419,7 +1419,7 @@
         "default_branch": "main",
         "description": "Neovim config for the lazy",
         "fork": false,
-        "forks_count": 1081,
+        "forks_count": 1080,
         "full_name": "LazyVim/LazyVim",
         "language": "Lua",
         "license": {
@@ -1451,7 +1451,7 @@
             "url": "https://api.github.com/users/LazyVim"
         },
         "private": false,
-        "stargazers_count": 15548,
+        "stargazers_count": 15549,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1460,7 +1460,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-07-21T15:34:36Z"
+        "updated_at": "2024-07-21T19:57:51Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1533,7 +1533,7 @@
         "default_branch": "master",
         "description": "\ud83d\udcda A Neovim config designed from scratch to be understandable",
         "fork": false,
-        "forks_count": 1171,
+        "forks_count": 1172,
         "full_name": "LunarVim/Neovim-from-scratch",
         "language": "Lua",
         "license": {
@@ -1905,7 +1905,7 @@
         "default_branch": "v2.5",
         "description": "Blazing fast Neovim config providing solid defaults and a beautiful UI, enhancing your neovim experience.",
         "fork": false,
-        "forks_count": 2087,
+        "forks_count": 2086,
         "full_name": "NvChad/NvChad",
         "language": "Lua",
         "license": {
@@ -1937,7 +1937,7 @@
             "url": "https://api.github.com/users/NvChad"
         },
         "private": false,
-        "stargazers_count": 23799,
+        "stargazers_count": 23802,
         "topics": [
             "dotfiles",
             "editor",
@@ -1960,7 +1960,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-07-21T15:35:08Z"
+        "updated_at": "2024-07-21T18:49:10Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -5629,7 +5629,7 @@
             "url": "https://api.github.com/users/dmmulroy"
         },
         "private": false,
-        "stargazers_count": 355,
+        "stargazers_count": 354,
         "topics": [
             "lua",
             "neovim",
@@ -5638,7 +5638,7 @@
             "typescript",
             "vim"
         ],
-        "updated_at": "2024-07-18T10:19:11Z"
+        "updated_at": "2024-07-21T17:45:00Z"
     },
     "doctorfree/nvim-plug": {
         "archived": false,
@@ -6938,7 +6938,7 @@
         "default_branch": "master",
         "description": "A modern Neovim configuration with full battery for Python, Lua, C++, Markdown, LaTeX, and more...",
         "fork": false,
-        "forks_count": 493,
+        "forks_count": 492,
         "full_name": "jdhao/nvim-config",
         "language": "Lua",
         "license": {
@@ -6984,7 +6984,7 @@
     "jiaoshijie/nvim": {
         "archived": false,
         "clone_url": "https://github.com/jiaoshijie/nvim.git",
-        "commit": "617d91551399aadd0da6c53ae583f2fb163557ea",
+        "commit": "9717439c81575ed25162a85ac8b0e01220f9a5d2",
         "contents_url": "https://api.github.com/repos/jiaoshijie/nvim/contents/{+path}",
         "created_at": "2021-04-07T09:51:34Z",
         "default_branch": "minimal",
@@ -7018,7 +7018,7 @@
         "private": false,
         "stargazers_count": 3,
         "topics": [],
-        "updated_at": "2024-07-20T06:58:14Z"
+        "updated_at": "2024-07-21T16:38:03Z"
     },
     "joalon/stgit-unofficial.nvim": {
         "archived": false,
@@ -9696,13 +9696,13 @@
     "nvim-lua/kickstart.nvim": {
         "archived": false,
         "clone_url": "https://github.com/nvim-lua/kickstart.nvim.git",
-        "commit": "dbba54cfd81506a20832aade85735bf4dc377b95",
+        "commit": "93fde0556e82ead2a5392ccb678359fa59437b98",
         "contents_url": "https://api.github.com/repos/nvim-lua/kickstart.nvim/contents/{+path}",
         "created_at": "2022-06-24T03:11:24Z",
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 17495,
+        "forks_count": 17502,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9712,7 +9712,7 @@
             "spdx_id": "MIT",
             "url": "https://api.github.com/licenses/mit"
         },
-        "open_issues_count": 33,
+        "open_issues_count": 31,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/67477499?v=4",
             "events_url": "https://api.github.com/users/nvim-lua/events{/privacy}",
@@ -9734,9 +9734,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 17108,
+        "stargazers_count": 17109,
         "topics": [],
-        "updated_at": "2024-07-21T15:05:04Z"
+        "updated_at": "2024-07-21T19:57:50Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
