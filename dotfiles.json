@@ -332,7 +332,7 @@
             "url": "https://api.github.com/users/AstroNvim"
         },
         "private": false,
-        "stargazers_count": 12640,
+        "stargazers_count": 12639,
         "topics": [
             "astronvim",
             "astrovim",
@@ -351,7 +351,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-10-10T00:34:09Z"
+        "updated_at": "2024-10-10T06:38:17Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -411,7 +411,7 @@
     "Avimitin/nvim": {
         "archived": false,
         "clone_url": "https://github.com/Avimitin/nvim.git",
-        "commit": "41ffbd13677c9642990787cda87b0afce1f0ac2b",
+        "commit": "c9ad8bca9d014ce698c8d0b56b16a7533f21369d",
         "contents_url": "https://api.github.com/repos/Avimitin/nvim/contents/{+path}",
         "created_at": "2021-01-22T11:44:44Z",
         "default_branch": "master",
@@ -467,7 +467,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-10-09T09:45:50Z"
+        "updated_at": "2024-10-10T07:16:39Z"
     },
     "Bekaboo/dropbar.nvim": {
         "archived": false,
@@ -1329,7 +1329,7 @@
         "default_branch": "main",
         "description": "Neovim config for the lazy",
         "fork": false,
-        "forks_count": 1184,
+        "forks_count": 1185,
         "full_name": "LazyVim/LazyVim",
         "language": "Lua",
         "license": {
@@ -1339,7 +1339,7 @@
             "spdx_id": "Apache-2.0",
             "url": "https://api.github.com/licenses/apache-2.0"
         },
-        "open_issues_count": 68,
+        "open_issues_count": 69,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/122150220?v=4",
             "events_url": "https://api.github.com/users/LazyVim/events{/privacy}",
@@ -1361,7 +1361,7 @@
             "url": "https://api.github.com/users/LazyVim"
         },
         "private": false,
-        "stargazers_count": 16889,
+        "stargazers_count": 16890,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1370,7 +1370,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-10-10T01:18:27Z"
+        "updated_at": "2024-10-10T06:29:12Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1413,7 +1413,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 18232,
+        "stargazers_count": 18233,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -1432,7 +1432,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-10-10T01:52:11Z"
+        "updated_at": "2024-10-10T07:52:42Z"
     },
     "LunarVim/Neovim-from-scratch": {
         "archived": false,
@@ -1475,7 +1475,7 @@
             "url": "https://api.github.com/users/LunarVim"
         },
         "private": false,
-        "stargazers_count": 5399,
+        "stargazers_count": 5400,
         "topics": [
             "hacktoberfest",
             "hacktoberfest2022",
@@ -1486,7 +1486,7 @@
             "nvim-plugin",
             "nvimrc"
         ],
-        "updated_at": "2024-10-08T06:24:18Z"
+        "updated_at": "2024-10-10T06:12:44Z"
     },
     "Luxed/nvim-config": {
         "archived": false,
@@ -1870,7 +1870,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-10-10T03:45:46Z"
+        "updated_at": "2024-10-10T06:09:07Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -3920,7 +3920,7 @@
             "url": "https://api.github.com/users/ayamir"
         },
         "private": false,
-        "stargazers_count": 2914,
+        "stargazers_count": 2915,
         "topics": [
             "dotfiles",
             "editor",
@@ -3935,12 +3935,12 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-10-10T03:32:21Z"
+        "updated_at": "2024-10-10T07:10:53Z"
     },
     "b0o/nvim-conf": {
         "archived": false,
         "clone_url": "https://github.com/b0o/nvim-conf.git",
-        "commit": "d13eba38986c1096252413e47d750f28e456eec1",
+        "commit": "1cb244d19b728b9885ecb5d80d0c2bab590085a6",
         "contents_url": "https://api.github.com/repos/b0o/nvim-conf/contents/{+path}",
         "created_at": "2018-07-15T16:53:30Z",
         "default_branch": "main",
@@ -3986,7 +3986,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-10-09T18:34:04Z"
+        "updated_at": "2024-10-10T05:19:02Z"
     },
     "barreiroleo/ltex_extra.nvim": {
         "archived": false,
@@ -7604,7 +7604,7 @@
         "full_name": "kunzaatko/nvim-dots",
         "language": "Lua",
         "license": null,
-        "open_issues_count": 29,
+        "open_issues_count": 30,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/56647779?v=4",
             "events_url": "https://api.github.com/users/kunzaatko/events{/privacy}",
@@ -9581,7 +9581,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 22001,
+        "forks_count": 22016,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9613,9 +9613,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 19030,
+        "stargazers_count": 19035,
         "topics": [],
-        "updated_at": "2024-10-10T02:27:56Z"
+        "updated_at": "2024-10-10T07:44:32Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -12083,9 +12083,9 @@
             "url": "https://api.github.com/users/yetone"
         },
         "private": false,
-        "stargazers_count": 5991,
+        "stargazers_count": 5997,
         "topics": [],
-        "updated_at": "2024-10-10T03:54:18Z"
+        "updated_at": "2024-10-10T07:44:44Z"
     },
     "younger-1/nvim": {
         "archived": false,
