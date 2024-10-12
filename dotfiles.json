@@ -332,7 +332,7 @@
             "url": "https://api.github.com/users/AstroNvim"
         },
         "private": false,
-        "stargazers_count": 12645,
+        "stargazers_count": 12648,
         "topics": [
             "astronvim",
             "astrovim",
@@ -351,7 +351,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-10-12T09:33:29Z"
+        "updated_at": "2024-10-12T15:12:16Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -1361,7 +1361,7 @@
             "url": "https://api.github.com/users/LazyVim"
         },
         "private": false,
-        "stargazers_count": 16916,
+        "stargazers_count": 16920,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1370,7 +1370,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-10-12T10:19:41Z"
+        "updated_at": "2024-10-12T15:24:21Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1847,7 +1847,7 @@
             "url": "https://api.github.com/users/NvChad"
         },
         "private": false,
-        "stargazers_count": 24591,
+        "stargazers_count": 24593,
         "topics": [
             "dotfiles",
             "editor",
@@ -1870,7 +1870,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-10-12T08:31:02Z"
+        "updated_at": "2024-10-12T15:32:04Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -2642,7 +2642,7 @@
         "default_branch": "master",
         "description": "Awesome Configurations for C/C++, Zig, Rust, Python, Shell, Web and Lua development in NeoVim",
         "fork": false,
-        "forks_count": 76,
+        "forks_count": 77,
         "full_name": "Ultra-Code/awesome-neovim",
         "language": "Lua",
         "license": {
@@ -4488,13 +4488,13 @@
             "url": "https://api.github.com/users/chrisgrieser"
         },
         "private": false,
-        "stargazers_count": 618,
+        "stargazers_count": 619,
         "topics": [
             "camelcase",
             "editing-support",
             "nvim-plugin"
         ],
-        "updated_at": "2024-10-09T06:40:45Z"
+        "updated_at": "2024-10-12T13:31:34Z"
     },
     "claidler/nvim-config": {
         "archived": false,
@@ -6667,7 +6667,7 @@
             "url": "https://api.github.com/users/jamestthompson3"
         },
         "private": false,
-        "stargazers_count": 879,
+        "stargazers_count": 881,
         "topics": [
             "docker",
             "lua",
@@ -6675,7 +6675,7 @@
             "nvim",
             "remote-containers"
         ],
-        "updated_at": "2024-10-12T06:17:58Z"
+        "updated_at": "2024-10-12T12:52:48Z"
     },
     "jannikbrozy/vimrc": {
         "archived": false,
@@ -6802,7 +6802,7 @@
             "url": "https://api.github.com/users/jdhao"
         },
         "private": false,
-        "stargazers_count": 3496,
+        "stargazers_count": 3497,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -6813,7 +6813,7 @@
             "nvim-config",
             "nvim-configuration"
         ],
-        "updated_at": "2024-10-12T04:35:39Z"
+        "updated_at": "2024-10-12T13:45:37Z"
     },
     "jiaoshijie/nvim": {
         "archived": false,
@@ -8028,7 +8028,7 @@
             "url": "https://api.github.com/users/lukas-reineke"
         },
         "private": false,
-        "stargazers_count": 4154,
+        "stargazers_count": 4156,
         "topics": [
             "hacktoberfest",
             "indentation",
@@ -8037,7 +8037,7 @@
             "vim",
             "vim-plugin"
         ],
-        "updated_at": "2024-10-12T08:13:54Z"
+        "updated_at": "2024-10-12T14:29:34Z"
     },
     "luukvbaal/statuscol.nvim": {
         "archived": false,
@@ -9215,7 +9215,7 @@
     "nikbrunner/vin": {
         "archived": false,
         "clone_url": "https://github.com/nikbrunner/vin.git",
-        "commit": "7e2920f2e5e340a5b57b1a1ecf604fdcdb1b0dec",
+        "commit": "61ccda99675efbcea1e3289c715cf295a0e4b7ba",
         "contents_url": "https://api.github.com/repos/nikbrunner/vin/contents/{+path}",
         "created_at": "2021-04-01T19:58:59Z",
         "default_branch": "main",
@@ -9254,7 +9254,7 @@
             "vim-configuration",
             "vimrc"
         ],
-        "updated_at": "2024-10-11T12:51:38Z"
+        "updated_at": "2024-10-12T14:11:12Z"
     },
     "nishu-murmu/nvim": {
         "archived": false,
@@ -9581,7 +9581,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 22173,
+        "forks_count": 22179,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9613,9 +9613,9 @@
             "url": "https://api.github.com/users/nvim-lua"
         },
         "private": false,
-        "stargazers_count": 19105,
+        "stargazers_count": 19110,
         "topics": [],
-        "updated_at": "2024-10-12T09:37:21Z"
+        "updated_at": "2024-10-12T15:37:41Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -12051,7 +12051,7 @@
         "default_branch": "main",
         "description": "Use your Neovim like using Cursor AI IDE!",
         "fork": false,
-        "forks_count": 213,
+        "forks_count": 214,
         "full_name": "yetone/avante.nvim",
         "language": "Lua",
         "license": {
@@ -12083,9 +12083,9 @@
             "url": "https://api.github.com/users/yetone"
         },
         "private": false,
-        "stargazers_count": 6049,
+        "stargazers_count": 6055,
         "topics": [],
-        "updated_at": "2024-10-12T12:05:15Z"
+        "updated_at": "2024-10-12T16:00:45Z"
     },
     "younger-1/nvim": {
         "archived": false,
