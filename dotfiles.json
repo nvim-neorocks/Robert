@@ -1391,7 +1391,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 17209,
+        "stargazers_count": 17210,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1400,7 +1400,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-11-04T00:21:09Z"
+        "updated_at": "2024-11-04T01:45:46Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1444,7 +1444,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 18361,
+        "stargazers_count": 18362,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -1463,7 +1463,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-11-03T22:46:53Z"
+        "updated_at": "2024-11-04T01:33:56Z"
     },
     "LunarVim/Neovim-from-scratch": {
         "archived": false,
@@ -1848,13 +1848,13 @@
     "NvChad/NvChad": {
         "archived": false,
         "clone_url": "https://github.com/NvChad/NvChad.git",
-        "commit": "0f0141f098245da50a5c6d0626d53a25958b0bd7",
+        "commit": "7b73d1111cfb41f980d25c800d86d43ad802d8b8",
         "contents_url": "https://api.github.com/repos/NvChad/NvChad/contents/{+path}",
         "created_at": "2021-03-07T14:33:17Z",
         "default_branch": "v2.5",
         "description": "Blazing fast Neovim config providing solid defaults and a beautiful UI, enhancing your neovim experience.",
         "fork": false,
-        "forks_count": 2130,
+        "forks_count": 2131,
         "full_name": "NvChad/NvChad",
         "language": "Lua",
         "license": {
@@ -1887,7 +1887,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 24817,
+        "stargazers_count": 24818,
         "topics": [
             "dotfiles",
             "hacktoberfest",
@@ -1909,7 +1909,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-11-03T23:33:38Z"
+        "updated_at": "2024-11-04T03:49:00Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -1953,7 +1953,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 204,
+        "stargazers_count": 205,
         "topics": [
             "base16",
             "neovim",
@@ -1962,7 +1962,7 @@
             "rice",
             "theme"
         ],
-        "updated_at": "2024-11-03T07:16:07Z"
+        "updated_at": "2024-11-04T03:36:54Z"
     },
     "PHSix/nvim": {
         "archived": false,
@@ -5936,9 +5936,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 33,
+        "stargazers_count": 34,
         "topics": [],
-        "updated_at": "2024-11-03T09:18:40Z"
+        "updated_at": "2024-11-04T01:00:04Z"
     },
     "farbodsz/pointfree.nvim": {
         "archived": false,
@@ -6952,7 +6952,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 3548,
+        "stargazers_count": 3551,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -6963,7 +6963,7 @@
             "nvim-config",
             "nvim-configuration"
         ],
-        "updated_at": "2024-11-03T21:46:13Z"
+        "updated_at": "2024-11-04T02:19:28Z"
     },
     "jiaoshijie/nvim": {
         "archived": false,
@@ -8206,7 +8206,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 4216,
+        "stargazers_count": 4218,
         "topics": [
             "hacktoberfest",
             "indentation",
@@ -8215,7 +8215,7 @@
             "vim",
             "vim-plugin"
         ],
-        "updated_at": "2024-11-03T17:37:11Z"
+        "updated_at": "2024-11-04T02:49:55Z"
     },
     "luukvbaal/statuscol.nvim": {
         "archived": false,
@@ -9773,7 +9773,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 1220,
+        "stargazers_count": 1221,
         "topics": [
             "learn-vim",
             "learning-by-doing",
@@ -9783,7 +9783,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-11-03T09:57:14Z"
+        "updated_at": "2024-11-04T03:55:55Z"
     },
     "nvim-lua/kickstart.nvim": {
         "archived": false,
@@ -9794,7 +9794,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 23394,
+        "forks_count": 23399,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9829,7 +9829,7 @@
         "private": false,
         "stargazers_count": 19620,
         "topics": [],
-        "updated_at": "2024-11-03T21:46:30Z"
+        "updated_at": "2024-11-04T02:04:24Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -12320,7 +12320,7 @@
         "default_branch": "main",
         "description": "Use your Neovim like using Cursor AI IDE!",
         "fork": false,
-        "forks_count": 242,
+        "forks_count": 241,
         "full_name": "yetone/avante.nvim",
         "language": "Lua",
         "license": {
@@ -12330,7 +12330,7 @@
             "spdx_id": "Apache-2.0",
             "url": "https://api.github.com/licenses/apache-2.0"
         },
-        "open_issues_count": 82,
+        "open_issues_count": 83,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1206493?v=4",
             "events_url": "https://api.github.com/users/yetone/events{/privacy}",
@@ -12353,9 +12353,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 6610,
+        "stargazers_count": 6615,
         "topics": [],
-        "updated_at": "2024-11-04T00:35:31Z"
+        "updated_at": "2024-11-04T03:39:19Z"
     },
     "younger-1/nvim": {
         "archived": false,
