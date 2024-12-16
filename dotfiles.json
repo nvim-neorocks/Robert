@@ -340,7 +340,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 12870,
+        "stargazers_count": 12873,
         "topics": [
             "astronvim",
             "astrovim",
@@ -359,7 +359,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-12-16T15:39:39Z"
+        "updated_at": "2024-12-16T17:15:47Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -403,7 +403,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 1252,
+        "stargazers_count": 1251,
         "topics": [
             "astronvim",
             "astrovim",
@@ -415,7 +415,7 @@
             "neovim-lua-plugin",
             "neovim-plugin"
         ],
-        "updated_at": "2024-12-16T13:11:37Z"
+        "updated_at": "2024-12-16T16:14:34Z"
     },
     "Avimitin/nvim": {
         "archived": false,
@@ -521,7 +521,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 1076,
+        "stargazers_count": 1077,
         "topics": [
             "breadcrumbs",
             "lsp",
@@ -532,7 +532,7 @@
             "treesitter",
             "winbar"
         ],
-        "updated_at": "2024-12-16T08:38:31Z"
+        "updated_at": "2024-12-16T17:57:44Z"
     },
     "Borwe/nvimrc": {
         "archived": false,
@@ -1352,7 +1352,7 @@
     "LazyVim/LazyVim": {
         "archived": false,
         "clone_url": "https://github.com/LazyVim/LazyVim.git",
-        "commit": "60b77045d57d5473e50042b9b879c9c1054e6a10",
+        "commit": "63eab6d9a54b6d9e93d3cc445d57014bbe8cc271",
         "contents_url": "https://api.github.com/repos/LazyVim/LazyVim/contents/{+path}",
         "created_at": "2022-12-30T16:31:42Z",
         "default_branch": "main",
@@ -1368,7 +1368,7 @@
             "spdx_id": "Apache-2.0",
             "url": "https://api.github.com/licenses/apache-2.0"
         },
-        "open_issues_count": 16,
+        "open_issues_count": 15,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/122150220?v=4",
             "events_url": "https://api.github.com/users/LazyVim/events{/privacy}",
@@ -1391,7 +1391,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 18043,
+        "stargazers_count": 18075,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1400,7 +1400,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-12-16T16:05:22Z"
+        "updated_at": "2024-12-16T20:09:35Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1444,7 +1444,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 18486,
+        "stargazers_count": 18488,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -1463,7 +1463,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-12-16T15:56:50Z"
+        "updated_at": "2024-12-16T19:26:05Z"
     },
     "LunarVim/Neovim-from-scratch": {
         "archived": false,
@@ -1887,7 +1887,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 25135,
+        "stargazers_count": 25136,
         "topics": [
             "dotfiles",
             "hacktoberfest",
@@ -1909,7 +1909,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2024-12-16T15:40:05Z"
+        "updated_at": "2024-12-16T17:13:57Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -1920,7 +1920,7 @@
         "default_branch": "v2.5",
         "description": "NvChad's base46 theme plugin with caching ( Total re-write ) ",
         "fork": true,
-        "forks_count": 205,
+        "forks_count": 204,
         "full_name": "NvChad/base46",
         "language": "Lua",
         "license": {
@@ -3583,14 +3583,14 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 149,
+        "stargazers_count": 150,
         "topics": [
             "neovim",
             "neovim-plugin",
             "nvim",
             "nvim-lsp"
         ],
-        "updated_at": "2024-12-15T15:08:34Z"
+        "updated_at": "2024-12-16T16:21:19Z"
     },
     "anriha/vimrc": {
         "archived": false,
@@ -4020,7 +4020,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-12-16T02:05:12Z"
+        "updated_at": "2024-12-16T17:56:21Z"
     },
     "b0o/nvim-conf": {
         "archived": false,
@@ -5587,7 +5587,7 @@
         "default_branch": "main",
         "description": "A Neovim plugin for seamless, asynchronous project-wide TypeScript type-checking using the TypeScript compiler (tsc)",
         "fork": false,
-        "forks_count": 23,
+        "forks_count": 22,
         "full_name": "dmmulroy/tsc.nvim",
         "language": "Lua",
         "license": {
@@ -9748,7 +9748,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 25380,
+        "forks_count": 25392,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9781,9 +9781,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 20529,
+        "stargazers_count": 20533,
         "topics": [],
-        "updated_at": "2024-12-16T16:01:03Z"
+        "updated_at": "2024-12-16T19:45:10Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -12365,9 +12365,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 7864,
+        "stargazers_count": 7871,
         "topics": [],
-        "updated_at": "2024-12-16T12:46:53Z"
+        "updated_at": "2024-12-16T19:53:57Z"
     },
     "younger-1/nvim": {
         "archived": false,
