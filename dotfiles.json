@@ -1391,7 +1391,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 18207,
+        "stargazers_count": 18213,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1400,7 +1400,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2024-12-18T00:28:53Z"
+        "updated_at": "2024-12-18T03:46:39Z"
     },
     "LunarVim/LunarVim": {
         "archived": false,
@@ -1411,7 +1411,7 @@
         "default_branch": "master",
         "description": "\ud83c\udf19 LunarVim is an IDE layer for Neovim. Completely free and community driven.",
         "fork": false,
-        "forks_count": 1506,
+        "forks_count": 1507,
         "full_name": "LunarVim/LunarVim",
         "language": "Lua",
         "license": {
@@ -4005,7 +4005,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 2965,
+        "stargazers_count": 2966,
         "topics": [
             "dotfiles",
             "editor",
@@ -4020,7 +4020,7 @@
             "vim",
             "vimrc"
         ],
-        "updated_at": "2024-12-17T18:56:44Z"
+        "updated_at": "2024-12-18T03:15:51Z"
     },
     "b0o/nvim-conf": {
         "archived": false,
@@ -8676,7 +8676,7 @@
     "mars90226/dotvim": {
         "archived": false,
         "clone_url": "https://github.com/mars90226/dotvim.git",
-        "commit": "ae94ae8362d4a23177769a0e70df1d67868311bf",
+        "commit": "6b6c51ee71ac5742c6830cd36cea095339115125",
         "contents_url": "https://api.github.com/repos/mars90226/dotvim/contents/{+path}",
         "created_at": "2012-05-31T16:23:56Z",
         "default_branch": "master",
@@ -8718,7 +8718,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2024-12-17T06:25:12Z"
+        "updated_at": "2024-12-18T03:59:06Z"
     },
     "matt-froggatt/nvim-config": {
         "archived": false,
@@ -9748,7 +9748,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 25454,
+        "forks_count": 25461,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9781,9 +9781,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 20560,
+        "stargazers_count": 20561,
         "topics": [],
-        "updated_at": "2024-12-17T23:52:16Z"
+        "updated_at": "2024-12-18T03:13:34Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -12342,7 +12342,7 @@
             "spdx_id": "Apache-2.0",
             "url": "https://api.github.com/licenses/apache-2.0"
         },
-        "open_issues_count": 123,
+        "open_issues_count": 124,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1206493?v=4",
             "events_url": "https://api.github.com/users/yetone/events{/privacy}",
@@ -12365,9 +12365,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 7907,
+        "stargazers_count": 7915,
         "topics": [],
-        "updated_at": "2024-12-17T22:12:40Z"
+        "updated_at": "2024-12-18T04:07:13Z"
     },
     "younger-1/nvim": {
         "archived": false,
