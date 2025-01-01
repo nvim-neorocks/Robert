@@ -300,7 +300,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 12933,
+        "stargazers_count": 12934,
         "topics": [
             "astronvim",
             "astrovim",
@@ -319,7 +319,7 @@
             "nvim",
             "vim"
         ],
-        "updated_at": "2025-01-01T13:36:06Z"
+        "updated_at": "2025-01-01T18:11:11Z"
     },
     "AstroNvim/astrocommunity": {
         "archived": false,
@@ -1318,7 +1318,7 @@
         "default_branch": "main",
         "description": "Neovim config for the lazy",
         "fork": false,
-        "forks_count": 1300,
+        "forks_count": 1299,
         "full_name": "LazyVim/LazyVim",
         "language": "Lua",
         "license": {
@@ -1351,7 +1351,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 18605,
+        "stargazers_count": 18607,
         "topics": [
             "neovim",
             "neovim-conf",
@@ -1360,7 +1360,7 @@
             "neovim-plugin",
             "nvim"
         ],
-        "updated_at": "2025-01-01T15:52:57Z"
+        "updated_at": "2025-01-01T17:28:23Z"
     },
     "LunarVim/Launch.nvim": {
         "archived": false,
@@ -1457,7 +1457,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 18521,
+        "stargazers_count": 18520,
         "topics": [
             "formatters",
             "hacktoberfest",
@@ -1476,7 +1476,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2025-01-01T13:31:53Z"
+        "updated_at": "2025-01-01T19:20:28Z"
     },
     "LunarVim/Neovim-from-scratch": {
         "archived": false,
@@ -1847,7 +1847,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 558,
+        "stargazers_count": 559,
         "topics": [
             "neovim-config",
             "neovim-configuration",
@@ -1856,7 +1856,7 @@
             "nvim-config",
             "nvim-configs"
         ],
-        "updated_at": "2025-01-01T08:58:31Z"
+        "updated_at": "2025-01-01T18:48:29Z"
     },
     "NvChad/NvChad": {
         "archived": false,
@@ -1867,7 +1867,7 @@
         "default_branch": "v2.5",
         "description": "Blazing fast Neovim config providing solid defaults and a beautiful UI, enhancing your neovim experience.",
         "fork": false,
-        "forks_count": 2149,
+        "forks_count": 2151,
         "full_name": "NvChad/NvChad",
         "language": "Lua",
         "license": {
@@ -1900,7 +1900,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 25248,
+        "stargazers_count": 25249,
         "topics": [
             "dotfiles",
             "hacktoberfest",
@@ -1922,7 +1922,7 @@
             "vimrc",
             "vscode"
         ],
-        "updated_at": "2025-01-01T14:45:20Z"
+        "updated_at": "2025-01-01T19:53:14Z"
     },
     "NvChad/base46": {
         "archived": false,
@@ -5232,7 +5232,7 @@
     "datwaft/nvim.conf": {
         "archived": false,
         "clone_url": "https://github.com/datwaft/nvim.conf.git",
-        "commit": "891af0fed7feeaa9170bf7ec974d29e74646f39e",
+        "commit": "c6334b5b426145458db7e435fd36ea5e6de5b9b0",
         "contents_url": "https://api.github.com/repos/datwaft/nvim.conf/contents/{+path}",
         "created_at": "2019-12-22T05:34:53Z",
         "default_branch": "main",
@@ -5272,7 +5272,7 @@
             "neovim",
             "neovim-configuration"
         ],
-        "updated_at": "2024-12-31T15:44:47Z"
+        "updated_at": "2025-01-01T19:41:46Z"
     },
     "davidgranstrom/scnvim": {
         "archived": false,
@@ -6569,7 +6569,7 @@
     "ibhagwan/nvim-lua": {
         "archived": false,
         "clone_url": "https://github.com/ibhagwan/nvim-lua.git",
-        "commit": "68d04e8ecdb03ef9f4bd23c0fb30d204a2fa4bf2",
+        "commit": "d956b66ea979e617076fabeef6839eec7a0357c8",
         "contents_url": "https://api.github.com/repos/ibhagwan/nvim-lua/contents/{+path}",
         "created_at": "2021-07-02T04:34:24Z",
         "default_branch": "main",
@@ -6604,7 +6604,7 @@
         "private": false,
         "stargazers_count": 217,
         "topics": [],
-        "updated_at": "2024-12-31T01:43:32Z"
+        "updated_at": "2025-01-01T17:56:08Z"
     },
     "imreverse/nvim-dots": {
         "archived": false,
@@ -8173,7 +8173,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 4336,
+        "stargazers_count": 4340,
         "topics": [
             "hacktoberfest",
             "indentation",
@@ -8182,7 +8182,7 @@
             "vim",
             "vim-plugin"
         ],
-        "updated_at": "2025-01-01T10:15:34Z"
+        "updated_at": "2025-01-01T19:27:02Z"
     },
     "luukvbaal/statuscol.nvim": {
         "archived": false,
@@ -9813,7 +9813,7 @@
         "default_branch": "master",
         "description": "A launch point for your personal nvim configuration",
         "fork": false,
-        "forks_count": 26174,
+        "forks_count": 26188,
         "full_name": "nvim-lua/kickstart.nvim",
         "language": "Lua",
         "license": {
@@ -9846,9 +9846,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 20849,
+        "stargazers_count": 20855,
         "topics": [],
-        "updated_at": "2025-01-01T14:39:18Z"
+        "updated_at": "2025-01-01T18:58:06Z"
     },
     "nvim-telescope/telescope-node-modules.nvim": {
         "archived": false,
@@ -9939,13 +9939,13 @@
     "nvim-tree/nvim-web-devicons": {
         "archived": false,
         "clone_url": "https://github.com/nvim-tree/nvim-web-devicons.git",
-        "commit": "5be6c4e685618b99c3210a69375b38a1202369b4",
+        "commit": "3722e3d1fb5fe1896a104eb489e8f8651260b520",
         "contents_url": "https://api.github.com/repos/nvim-tree/nvim-web-devicons/contents/{+path}",
         "created_at": "2020-05-29T13:37:01Z",
         "default_branch": "master",
         "description": "Provides Nerd Font icons (glyphs) for use by neovim plugins",
         "fork": false,
-        "forks_count": 192,
+        "forks_count": 193,
         "full_name": "nvim-tree/nvim-web-devicons",
         "language": "Lua",
         "license": {
@@ -9955,7 +9955,7 @@
             "spdx_id": "MIT",
             "url": "https://api.github.com/licenses/mit"
         },
-        "open_issues_count": 30,
+        "open_issues_count": 31,
         "owner": {
             "avatar_url": "https://avatars.githubusercontent.com/u/115335789?v=4",
             "events_url": "https://api.github.com/users/nvim-tree/events{/privacy}",
@@ -9978,7 +9978,7 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 2168,
+        "stargazers_count": 2169,
         "topics": [
             "icons",
             "lua",
@@ -9986,7 +9986,7 @@
             "neovim-plugins",
             "nerd-fonts"
         ],
-        "updated_at": "2024-12-31T20:42:42Z"
+        "updated_at": "2025-01-01T18:26:00Z"
     },
     "nvimdev/dope": {
         "archived": false,
@@ -12430,9 +12430,9 @@
             "user_view_type": "public"
         },
         "private": false,
-        "stargazers_count": 8274,
+        "stargazers_count": 8278,
         "topics": [],
-        "updated_at": "2025-01-01T15:41:06Z"
+        "updated_at": "2025-01-01T19:12:12Z"
     },
     "younger-1/nvim": {
         "archived": false,
