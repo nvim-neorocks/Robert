@@ -49,10 +49,9 @@ jobs:
           cat .env
       - name: Run pythonAuto
         run: |
-          poetry shell
-          pip install --upgrade icecream || true
-          python generate_database.py
-          python db_checker.py
+          poetry run pip install --upgrade icecream || true
+          poetry run python generate_database.py
+          poetry run python db_checker.py
 
       - name: Commit database changes
         run: |
