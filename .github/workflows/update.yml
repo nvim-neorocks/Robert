@@ -21,7 +21,7 @@ jobs:
         # see details (matrix, python-version, python-version-file, etc.)
         # https://github.com/actions/setup-python
       - name: Install poetry
-        run: pipx install poetry --python3.12
+        run: pipx install --python3.12 poetry
       - name: Setup a local virtual environment (if no poetry.toml file)
         run: |
           poetry config virtualenvs.create true --local
