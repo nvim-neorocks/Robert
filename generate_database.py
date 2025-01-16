@@ -29,6 +29,8 @@ from rich.logging import RichHandler
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from models import BaseRequestResponse
+import joblib.externals.loky
+joblib.externals.loky.process_executor._MAX_MEMORY_LEAK_SIZE = int(3e10)
 
 root = logging.getLogger()
 if root.handlers:
